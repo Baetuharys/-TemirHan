@@ -1,0 +1,42 @@
+en_command,tr_label,level,sw_version,source,note
+Part,Parça,C,,,"core term, verify"
+Assembly,Montaj,C,,,"core term, verify"
+Drawing,Teknik resim,C,,,"core term, verify"
+Sketch,Eskiz,C,,,"core term, verify"
+Feature,Özellik,C,,,"core term, verify"
+FeatureManager design tree,Özellik Yöneticisi,C,,,"core term, verify"
+Dimension,Ölçü,C,,,"core term, verify"
+Configuration,Konfigürasyon,C,,,"core term, verify"
+Base Flange/Tab,,U,,,fill from Turkish installation
+Edge Flange,,U,,,fill from Turkish installation
+Miter Flange,,U,,,fill from Turkish installation
+Hem,,U,,,fill from Turkish installation
+Jog,,U,,,fill from Turkish installation
+Sketched Bend,,U,,,fill from Turkish installation
+Lofted-Bend,,U,,,fill from Turkish installation
+Closed Corner,,U,,,fill from Turkish installation
+Break-Corner/Corner-Trim,,U,,,fill from Turkish installation
+Forming Tool,,U,,,fill from Turkish installation
+Vent,,U,,,fill from Turkish installation
+Rip,,U,,,fill from Turkish installation
+Insert Bends,,U,,,fill from Turkish installation
+Unfold,,U,,,fill from Turkish installation
+Fold,,U,,,fill from Turkish installation
+Flatten,,U,,,fill from Turkish installation
+Flat-Pattern,,U,,,fill from Turkish installation
+Convert to Sheet Metal,,U,,,fill from Turkish installation
+Normal Cut,,U,,,fill from Turkish installation
+K-Factor,,U,,,fill from Turkish installation
+Bend Allowance,,U,,,fill from Turkish installation
+Bend Deduction,,U,,,fill from Turkish installation
+Bend Table,,U,,,fill from Turkish installation
+Gauge table,,U,,,fill from Turkish installation
+Auto Relief,,U,,,fill from Turkish installation
+Export to DXF/DWG,,U,,,fill from Turkish installation
+Custom Properties,,U,,,fill from Turkish installation
+Mass Properties,,U,,,fill from Turkish installation
+Rebuild,,U,,,fill from Turkish installation
+Pack and Go,,U,,,fill from Turkish installation
+Cut list,,U,,,fill from Turkish installation
+Design Table,,U,,,fill from Turkish installation
+Mate,,U,,,fill from Turkish installation

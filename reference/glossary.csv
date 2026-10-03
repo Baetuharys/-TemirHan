@@ -1,0 +1,165 @@
+category,en,tr_shop,note,sw_ui_label_status
+sheet-metal,sheet metal,sac / sac levha,,U
+sheet-metal,plate,levha / kalın sac,Genelde 6 mm üzeri,U
+sheet-metal,blank,plaka / kesilmiş açınım parçası,,U
+sheet-metal,flat pattern,açınım / düz açınım,açınım: aç- kökünden,U
+sheet-metal,thickness,kalınlık,,U
+sheet-metal,grain direction,tane (elyaf) yönü / haddeleme yönü,,U
+sheet-metal,cold-rolled sheet,DKP (soğuk haddelenmiş sac),DC01,U
+sheet-metal,hot-rolled sheet,HRP / siyah sac (sıcak haddelenmiş),S235JR / DD11,U
+sheet-metal,galvanized sheet,galvaniz sac,DX51D+Z,U
+sheet-metal,stainless steel,paslanmaz çelik (inox),,U
+sheet-metal,mill certificate,malzeme sertifikası (3.1),,U
+bending,bend,büküm / bükme,büküm: bük- kökünden,U
+bending,press brake,abkant pres / büküm presi,abkant: atölye terimi,U
+bending,punch (upper tool),üst kalıp / zımba,,U
+bending,V-die,V kalıp / alt kalıp,,U
+bending,air bending,havada bükme / serbest bükme,,U
+bending,bottoming,dipte bükme,öneri; atölyede çoğu zaman İngilizce,U
+bending,coining,baskılı bükme,öneri,U
+bending,springback,geri yaylanma,,U
+bending,bend radius (inside),iç büküm yarıçapı,,U
+bending,neutral axis,tarafsız eksen / nötr eksen,,U
+bending,K-factor,K faktörü,,U
+bending,bend allowance,bükme payı,,U
+bending,bend deduction,bükme düşümü / bükme kesintisi,,U
+bending,outside setback,dış geri çekme (OSSB),öneri; kısaltma yaygın,U
+bending,bend table,büküm tablosu,,U
+bending,flange,flanş / kenar,,U
+bending,hem,kıvırma / hem,,U
+bending,jog / offset,basamak / ofset,,U
+bending,bend relief,büküm boşaltması / rahatlatma,,U
+bending,corner relief,köşe boşaltması,,U
+bending,closed corner,kapalı köşe,,U
+bending,minimum flange length,asgari kenar boyu,,U
+cutting,laser cutting,lazer kesim,,U
+cutting,fiber laser,fiber lazer,,U
+cutting,plasma cutting,plazma kesim,,U
+cutting,waterjet cutting,su jeti ile kesim,,U
+cutting,punching,zımbalama / delme,,U
+cutting,CNC turret punch,CNC punch (delme) tezgâhı,,U
+cutting,shear / guillotine,giyotin makas,,U
+cutting,kerf,kesim genişliği (kerf),,U
+cutting,nesting,yerleşim (nesting),,U
+cutting,burr,çapak,,U
+cutting,deburring,çapak alma,,U
+cutting,dross,cüruf,,U
+cutting,pierce,delme noktası (pierce),,U
+features,hole,delik,delik: del- kökünden,U
+features,slot,oluk / uzun delik,,U
+features,countersink,havşa,,U
+features,louver,panjur,,U
+features,rib / emboss,nervür / kabartma,,U
+features,extruded hole,çekme delik / flanşlı delik,,U
+features,tapping,kılavuz çekme / diş açma,,U
+features,thread,diş,,U
+joining,welding,kaynak,kaynak: kayna- kökünden,U
+joining,TIG welding,TIG (argon) kaynağı,,U
+joining,MIG/MAG welding,gazaltı kaynağı,,U
+joining,spot weld,nokta kaynağı,punta ile karıştırma,U
+joining,tack weld,punta kaynağı,,U
+joining,seam weld,sürekli kaynak / dikiş kaynağı,,U
+joining,stitch weld,aralıklı kaynak,,U
+joining,fillet weld,köşe kaynağı,,U
+joining,butt weld,alın kaynağı,,U
+joining,weld distortion,kaynak çarpılması,,U
+joining,spatter,kaynak sıçraması,,U
+joining,stud,saplama,,U
+joining,self-clinching nut (PEM-type),çakma somun,,U
+joining,standoff,mesafe pimi / distans,,U
+joining,blind rivet,kör perçin,,U
+joining,bolt,cıvata,,U
+joining,nut,somun,,U
+joining,washer,pul,,U
+joining,torque,sıkma momenti / tork,,U
+finishing,powder coating,elektrostatik toz boya,,U
+finishing,wet paint,sıvı boya,,U
+finishing,hot-dip galvanizing,sıcak daldırma galvaniz,,U
+finishing,electro-galvanizing,elektro galvaniz,,U
+finishing,passivation,pasivasyon,,U
+finishing,pickling,dekapaj,,U
+finishing,anodizing,eloksal,,U
+finishing,masking,maskeleme,,U
+finishing,hanging mark,askı izi,,U
+finishing,brushed finish,fırçalı (satine) yüzey,,U
+enclosure,enclosure,kabin / pano / muhafaza,,U
+enclosure,door,kapı,,U
+enclosure,cover,kapak,,U
+enclosure,gasket,conta,,U
+enclosure,door overlap,kapı bindirmesi,,U
+enclosure,cable gland,kablo rakoru (glen),,U
+enclosure,breather / vent,nefeslik / havalandırma elemanı,,U
+enclosure,drain,tahliye deliği,,U
+enclosure,condensation,yoğuşma,,U
+enclosure,IP rating,IP koruma sınıfı,,U
+enclosure,IK rating,IK darbe koruma sınıfı,,U
+enclosure,mounting plate,montaj plakası,,U
+enclosure,DIN rail,DIN ray,,U
+enclosure,hinge,menteşe,,U
+enclosure,earth bonding,topraklama / eş potansiyel bağlantı,,U
+drawing,technical drawing,teknik resim,,U
+drawing,title block,antet,,U
+drawing,view,görünüş,,U
+drawing,section view,kesit görünüşü,,U
+drawing,detail view,detay görünüşü,,U
+drawing,scale,ölçek,,U
+drawing,dimension,ölçü,,U
+drawing,revision,revizyon,,U
+drawing,BOM,malzeme listesi / ürün ağacı,,U
+drawing,first-angle projection,1. açı projeksiyon (Avrupa),,U
+drawing,surface roughness,yüzey pürüzlülüğü,,U
+drawing,general tolerance,genel tolerans,,U
+gdt,GD&T,geometrik toleranslandırma,,U
+gdt,datum,datum / referans yüzeyi,,U
+gdt,feature control frame,tolerans çerçevesi,,U
+gdt,flatness,düzlemsellik,,U
+gdt,straightness,doğrusallık,,U
+gdt,circularity,dairesellik,,U
+gdt,cylindricity,silindiriklik,,U
+gdt,parallelism,paralellik,,U
+gdt,perpendicularity,diklik,,U
+gdt,angularity,eğimlilik / açısallık,,U
+gdt,position,konum toleransı,,U
+gdt,concentricity,eş merkezlilik,,U
+gdt,coaxiality,eş eksenlilik,,U
+gdt,symmetry,simetri,,U
+gdt,circular run-out,dairesel salgı,,U
+gdt,total run-out,toplam salgı,,U
+gdt,profile of a surface,yüzey profili,,U
+gdt,maximum material condition,maksimum malzeme şartı (MMC),,U
+gdt,clearance fit,boşluklu geçme,,U
+gdt,interference fit,sıkı geçme,,U
+cad,part,parça,,U
+cad,assembly,montaj,,U
+cad,sketch,eskiz,,U
+cad,feature,özellik,,U
+cad,mate,ilişki / eşleşme,SolidWorks etiketi doğrulanmadı,U
+cad,configuration,konfigürasyon,,U
+cad,design table,tasarım tablosu,SolidWorks etiketi doğrulanmadı,U
+cad,custom property,özel özellik,SolidWorks etiketi doğrulanmadı,U
+cad,mass properties,kütle özellikleri,,U
+cad,bounding box,sınırlayıcı kutu,,U
+cad,cut list,kesim listesi,,U
+cad,macro,makro,,U
+cad,PDM,ürün veri yönetimi (PDM),,U
+commercial,quotation,teklif,,U
+commercial,request for quotation (RFQ),fiyat talebi,,U
+commercial,unit price,birim fiyat,,U
+commercial,lead time,termin süresi,,U
+commercial,minimum order quantity,asgari sipariş miktarı,,U
+commercial,payment terms,ödeme koşulları,,U
+commercial,validity period,geçerlilik süresi,,U
+commercial,overhead,genel gider,,U
+commercial,scrap,fire,,U
+commercial,yield,verim,,U
+commercial,batch,parti,,U
+commercial,setup time,hazırlık (setup) süresi,,U
+commercial,markup,maliyet üzerine ek (kâr oranı),markup ≠ margin,U
+commercial,margin,kâr marjı (fiyat üzerinden),markup ≠ margin,U
+measurement,caliper,kumpas,,U
+measurement,micrometer,mikrometre,,U
+measurement,coordinate measuring machine,koordinat ölçme makinesi (CMM),,U
+measurement,reference object,referans nesne,,U
+measurement,pixel,piksel,,U
+measurement,perspective,perspektif,,U
+measurement,lens distortion,lens bozulması,,U

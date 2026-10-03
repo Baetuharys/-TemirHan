@@ -1,0 +1,1 @@
+{"id":"ev-XXX","category":"bending","lang":"tr","prompt":"...","must_include_any":[["regex a","regex b"]],"must_not_match":["regex"],"expect_numbers":[{"value":0.0,"tol":0.1}],"rubric":"What a good answer contains."}

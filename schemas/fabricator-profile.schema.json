@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Mechanical AI Fabricator Profile",
+  "type": "object",
+  "required": ["profile_id", "units"],
+  "properties": {
+    "profile_id": {"type": "string", "minLength": 1},
+    "units": {"enum": ["mm", "inch"]},
+    "cad": {"type": "object"},
+    "materials": {"type": "object"},
+    "laser": {"type": "object"},
+    "press_brake": {"type": "object"},
+    "welding": {"type": "object"},
+    "fasteners": {"type": "object"},
+    "finishing": {"type": "object"},
+    "enclosure": {"type": "object"},
+    "costing": {"type": "object"},
+    "release": {"type": "object"},
+    "notes": {"type": "array", "items": {"type": "string"}}
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,16 @@
+{
+  "profile_id": "example-shop",
+  "status": "template",
+  "units": "mm",
+  "cad": {"solidworks_version": null, "ui_language": "tr", "drawing_standard_basis": null},
+  "materials": {"stocked": []},
+  "laser": {"machine": null, "max_sheet_mm": null, "preferred_min_feature_mm": null},
+  "press_brake": {"machine": null, "tooling": [], "bend_model_source": null, "validated_bend_table": null},
+  "welding": {"processes": []},
+  "fasteners": {"stocked_families": []},
+  "finishing": {"processes": []},
+  "enclosure": {"gasket_families": [], "hinge_families": [], "lock_families": []},
+  "costing": {"currency": null, "material_rates": {}, "machine_rates": {}, "labor_rate_per_hour": null, "overhead_method": null},
+  "release": {"required_checks": []},
+  "notes": []
+}

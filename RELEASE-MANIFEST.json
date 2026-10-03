@@ -1,0 +1,3752 @@
+{
+  "name": "Mechanical AI Engineering",
+  "version": "3.0.0",
+  "file_count": 749,
+  "files": [
+    {
+      "path": ".github/workflows/validate.yml",
+      "bytes": 695,
+      "sha256": "5769edd1c01908930da1a3e9b1ebe6f94fbfa36a9b8e68be87c1547225880fac"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 59,
+      "sha256": "321003ad49490ed496d656c1c8a61ceb1880602e2fd17ea1cfc099bc4e95c725"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 663,
+      "sha256": "1e3c535ba77c0fcc6bbc5ad3e3f028a45035a65a5417626021b56cf430155749"
+    },
+    {
+      "path": "CHANGELOG.md",
+      "bytes": 6297,
+      "sha256": "5ec831243c7648d757682c5767fbefd994bf7755e1ce3080cca0a373ee748c08"
+    },
+    {
+      "path": "CLAUDE.md",
+      "bytes": 1574,
+      "sha256": "9fa89dcb6f76ed2954d31acf0d3b33c670963eee5103971ff8138680ea0867de"
+    },
+    {
+      "path": "CONTRIBUTING.md",
+      "bytes": 518,
+      "sha256": "ebb66694740f3f5997febd69c9cebe69b1192d18ffd3a79eeeef6e6342e463c2"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12320,
+      "sha256": "1232dd98f43050094cbbd58ef4ec155541593b64681baa1b880b280f774238ce"
+    },
+    {
+      "path": "THIRD_PARTY_NOTICE.md",
+      "bytes": 545,
+      "sha256": "e9ff0d0539e5157819be26f69348ea0299837818eb2e06f147687db3b19c7e2d"
+    },
+    {
+      "path": "VERSION",
+      "bytes": 6,
+      "sha256": "2985be8b28d3ade858e8d8fb4bc22f565b1bf6020dff982dce141f7721b9999c"
+    },
+    {
+      "path": "adapters/chatgpt/README.md",
+      "bytes": 885,
+      "sha256": "6693337bf39ca7b796950f68d6152f743931eae46c43d22bf3bb54eb04b86086"
+    },
+    {
+      "path": "adapters/claude/CLAUDE.md",
+      "bytes": 1574,
+      "sha256": "9fa89dcb6f76ed2954d31acf0d3b33c670963eee5103971ff8138680ea0867de"
+    },
+    {
+      "path": "adapters/claude/README.md",
+      "bytes": 1045,
+      "sha256": "1e5f222e94deff3f8abcc3c7183d9ebca048fa60d241076a7844f8c9c847652e"
+    },
+    {
+      "path": "adapters/codex/README.md",
+      "bytes": 372,
+      "sha256": "d92dd35d0c8ba976e8b3eb98c3fb6f249c84a4a4a19dc02b38c277f5833a401d"
+    },
+    {
+      "path": "adapters/codex/mapping.md",
+      "bytes": 297,
+      "sha256": "00598b588bc2059e5dad375c21dd4173b22f612faf4cd16b4c55c84edff39e55"
+    },
+    {
+      "path": "adapters/generic-llm/README.md",
+      "bytes": 295,
+      "sha256": "33eb6e403d2eb1480523576f2a2faef6e4a62c92bf336b8ef58411dfd231c754"
+    },
+    {
+      "path": "adapters/generic-llm/mapping.md",
+      "bytes": 197,
+      "sha256": "7af7ea55d21e85a0d07824b50f03422ac49b81781137a40b8513c715c4601825"
+    },
+    {
+      "path": "agents/README.md",
+      "bytes": 457,
+      "sha256": "278ed8c053aaa1cb2517c98169aebad179208f6bb19440268d1833c7553e4e25"
+    },
+    {
+      "path": "agents/cost-quotation-agent.md",
+      "bytes": 700,
+      "sha256": "1eb28399fc3d12ba2b8d60695389edb6e4be4611e4d8997513c582d530bd9cd0"
+    },
+    {
+      "path": "agents/drawing-gdt-agent.md",
+      "bytes": 704,
+      "sha256": "22994c39c36281eb8a5870c792a08d0e336d42a3690ce824a0c1c42c80af4670"
+    },
+    {
+      "path": "agents/enclosure-agent.md",
+      "bytes": 704,
+      "sha256": "091901a28a4afc15f16cf9e935ccb77bf7046befdcc5b3cdcd6579fd27139f8d"
+    },
+    {
+      "path": "agents/image-cad-agent.md",
+      "bytes": 712,
+      "sha256": "55a5a0a224f7eb6661bc3d5e256aa634b5dfc9e25cd4cbe72b955e4824439fa5"
+    },
+    {
+      "path": "agents/intake-agent.md",
+      "bytes": 712,
+      "sha256": "68e82e0efb21bfc401405a47ef46c9c64d61f78eff83ac120fd420af46be2c0d"
+    },
+    {
+      "path": "agents/manufacturing-agent.md",
+      "bytes": 734,
+      "sha256": "3935b3a50d934af84c60a841850114c47da5b175d60c065fc43da7c205bed582"
+    },
+    {
+      "path": "agents/orchestrator.md",
+      "bytes": 679,
+      "sha256": "fe9995f6c206c0666621bd343b23eeb28fa57e36abd175ca3fb167f98a919a1e"
+    },
+    {
+      "path": "agents/sheet-metal-agent.md",
+      "bytes": 736,
+      "sha256": "0150c8ae0a0ab266cbd0dad9e8368814ec4e8bbd540bf9ad8d7453693e3aecfb"
+    },
+    {
+      "path": "agents/solidworks-agent.md",
+      "bytes": 770,
+      "sha256": "fa66bc9dd9eb8485f2a27b7a5f426792b9dbe8177930a0d353f0fdda4e599b5d"
+    },
+    {
+      "path": "agents/source-research-agent.md",
+      "bytes": 698,
+      "sha256": "49f5cd7dd5e336b2d21c7fce2bd51030587c95db52d1ebd18a790c2569f6bc8d"
+    },
+    {
+      "path": "agents/verification-agent.md",
+      "bytes": 702,
+      "sha256": "4d232129f4da52220bce0e947f9ac63a7099152faab12fe0f270d6707b02d84e"
+    },
+    {
+      "path": "cases/5754-aluminum-weight/case.md",
+      "bytes": 940,
+      "sha256": "dded7835d9eac72d36ac8cc8c7d027277cd25e8b4c9ba652037035f351342d10"
+    },
+    {
+      "path": "cases/5754-aluminum-weight/expected-output.md",
+      "bytes": 464,
+      "sha256": "bca071c32d5be69cade316700dded7fb2fc920b33aa104cdf39af6f770cc2654"
+    },
+    {
+      "path": "cases/5754-aluminum-weight/failure-modes.md",
+      "bytes": 293,
+      "sha256": "1d6f70716141fb183521c25c8b8b7edd2dbe1e0c3621e56cd991106aa322c176"
+    },
+    {
+      "path": "cases/README.md",
+      "bytes": 501,
+      "sha256": "1e0e37ea622d5ed9ba1bb34e3665a736ed80f16901c183fa8cde3eb1cd965f8b"
+    },
+    {
+      "path": "cases/cost-to-quotation/case.md",
+      "bytes": 630,
+      "sha256": "d4f742ef07925589d402120805141ff5c4c86dae5b8253448df1acc4bc291c4c"
+    },
+    {
+      "path": "cases/cost-to-quotation/expected-output.md",
+      "bytes": 293,
+      "sha256": "6ab94dd61fbeb3c767eba95f9d8309eca300c7a3d8b7e450841712de12a9f1f5"
+    },
+    {
+      "path": "cases/cost-to-quotation/failure-modes.md",
+      "bytes": 215,
+      "sha256": "853de90122e83c27488afdf3c6b6945142e9bde873d7fbcbb3db906effa94928"
+    },
+    {
+      "path": "cases/drawing-release/case.md",
+      "bytes": 546,
+      "sha256": "7a5766308946564313956a1705e3a5171c6a033246098fd53a14e0b896f892e3"
+    },
+    {
+      "path": "cases/drawing-release/expected-output.md",
+      "bytes": 341,
+      "sha256": "37cf6384f1a56eb7c9306200a0edd7d3a37e0a59fd659e800afefa32bed35478"
+    },
+    {
+      "path": "cases/drawing-release/failure-modes.md",
+      "bytes": 191,
+      "sha256": "a9e531320e9af1953b68f28e9ecf18590c25e21940123bed850af2a0f357c8e3"
+    },
+    {
+      "path": "cases/dxf-release/case.md",
+      "bytes": 665,
+      "sha256": "ebc5bbd3503362fbe4405115d65e80b578c0b13df0bb540d4f866c8bdf7001ce"
+    },
+    {
+      "path": "cases/dxf-release/expected-output.md",
+      "bytes": 218,
+      "sha256": "bdd9496454d2f7ad5a9ff00314a5e2087548d7bd62c7a32ef366de028f9641a2"
+    },
+    {
+      "path": "cases/dxf-release/failure-modes.md",
+      "bytes": 197,
+      "sha256": "8286fe8a3b3974842f669538097ef5944fd0717877d3ab93a5b2f32f981e6013"
+    },
+    {
+      "path": "cases/end-to-end-release/case.md",
+      "bytes": 739,
+      "sha256": "fb49ce4a3e16269ef2aecbcb32fbfe210504b3cee29d3fd0fbb8343bdbe0603a"
+    },
+    {
+      "path": "cases/end-to-end-release/expected-output.md",
+      "bytes": 344,
+      "sha256": "54db8f573a3d1c815ca90b0bbe1a66af384fa91985cf722ce29ae4d4d919fd0d"
+    },
+    {
+      "path": "cases/end-to-end-release/failure-modes.md",
+      "bytes": 233,
+      "sha256": "02dd9a0e143ad05b883615bace7eb0bbdab3e87369b3e7f44d4fbe5ed4302f4c"
+    },
+    {
+      "path": "cases/four-corner-weld/case.md",
+      "bytes": 749,
+      "sha256": "cde7e458f3801ea0c49018f9cee7da548bf0a875fc12deccf3d80e50ed79e0e7"
+    },
+    {
+      "path": "cases/four-corner-weld/expected-output.md",
+      "bytes": 265,
+      "sha256": "cb9b0a7be42b433d6fb95b0aa4f6ab6dd726101dc0fa0e3500ec91217699e8d7"
+    },
+    {
+      "path": "cases/four-corner-weld/failure-modes.md",
+      "bytes": 228,
+      "sha256": "f1447cb8311b4894e727907fbd4767b94a6f6466c6eea6e38a09e9dd630f0fd7"
+    },
+    {
+      "path": "cases/ip65-enclosure/case.md",
+      "bytes": 837,
+      "sha256": "cf2a078a5d21147216617897d27b8ef4b7bb7cfb12da5ae1f7d67a54426d2540"
+    },
+    {
+      "path": "cases/ip65-enclosure/expected-output.md",
+      "bytes": 319,
+      "sha256": "86359e63c770d50145876ecaee27d498e71a4f46af5df73b0e874ea9cb47eff2"
+    },
+    {
+      "path": "cases/ip65-enclosure/failure-modes.md",
+      "bytes": 255,
+      "sha256": "02fcb8ef6d5c4e6f973a25ac1b38dc3ae4290fc21fb9acdabe872f87db96b02e"
+    },
+    {
+      "path": "cases/laser-dxf-stud-marking/case.md",
+      "bytes": 931,
+      "sha256": "3c54cc465d3364c2392865bf8a49368e1b3dcdf699e160387d1a124f4a5ceecb"
+    },
+    {
+      "path": "cases/laser-dxf-stud-marking/expected-output.md",
+      "bytes": 378,
+      "sha256": "beca8910db4806325e9d84516f72921bbc07948cf1b906cebc64b1dbc838652a"
+    },
+    {
+      "path": "cases/laser-dxf-stud-marking/failure-modes.md",
+      "bytes": 283,
+      "sha256": "f5486fec2f0da0803cf25c9931de8523d1f83aa3c53576c5b3379b491d065d7c"
+    },
+    {
+      "path": "cases/m4-fastener/case.md",
+      "bytes": 580,
+      "sha256": "6988a27630027532f1bf4f4cbee7cdecdf8af70dbd136c0e8374844ec6f06955"
+    },
+    {
+      "path": "cases/m4-fastener/expected-output.md",
+      "bytes": 342,
+      "sha256": "a0abb59d3475afade8454f55ce110a9d53f734db367d90fd7fd6353896509d7c"
+    },
+    {
+      "path": "cases/m4-fastener/failure-modes.md",
+      "bytes": 194,
+      "sha256": "2948191ee22c52382e64eab319feedb6bcce9aad81cd99dadae4dafbedb3eeaa"
+    },
+    {
+      "path": "cases/solidworks-turkish-title-block/case.md",
+      "bytes": 940,
+      "sha256": "dfbeca5306da6b9d2f7e2f1df14a5431ed2c4d7fc755d20c9b99bb4f9c296be7"
+    },
+    {
+      "path": "cases/solidworks-turkish-title-block/expected-output.md",
+      "bytes": 416,
+      "sha256": "8866c67251ccf14c438d457446c3f5762afcafc194f6069fd8ed29d367a4048c"
+    },
+    {
+      "path": "cases/solidworks-turkish-title-block/failure-modes.md",
+      "bytes": 290,
+      "sha256": "76d4f00782f476dbab4c4f13c9919dade5d79ab9911d97874b71916169ad4728"
+    },
+    {
+      "path": "catalog/dependencies.md",
+      "bytes": 409,
+      "sha256": "d410f7849b171047fe307f53fd91d886332fab8aaca034238844f4d7091af409"
+    },
+    {
+      "path": "catalog/generated.md",
+      "bytes": 9560,
+      "sha256": "38505f9da7034b016520f129c4910762d25af41c3ba2865e2a752559d57fecc8"
+    },
+    {
+      "path": "catalog/skill-roadmap.md",
+      "bytes": 861,
+      "sha256": "02271dd16e4a1fa32e22fcb4ffbc426b2995556e7001a6a66aaf9347fe242412"
+    },
+    {
+      "path": "catalog/skills.md",
+      "bytes": 12193,
+      "sha256": "e05808d725ad2e6dae32533ca841f81c57b50cd363f9ad1e4f72d841d597a155"
+    },
+    {
+      "path": "catalog/taxonomy.md",
+      "bytes": 331,
+      "sha256": "f71cfa7a8f07dc1ae9f13af79072c9f3380a1e1fae59825329a7cb0e87f77d04"
+    },
+    {
+      "path": "catalog/topic-coverage.md",
+      "bytes": 5467,
+      "sha256": "45fb9f0c1d152f0a7001f44d69fb02b1600bde019a41d1d76b7e7af4727ba39a"
+    },
+    {
+      "path": "design_patterns/enclosures/README.md",
+      "bytes": 1385,
+      "sha256": "5667ad4ece0d1d7269f92dfbfcc90189e0506aa2f4f9279a306ee958f594c33e"
+    },
+    {
+      "path": "design_patterns/enclosures/door-gasket-path.md",
+      "bytes": 1198,
+      "sha256": "188d657543188cc83b330fe72d3983b36568b0cc06c21b6a76f1f2ff1eb987fc"
+    },
+    {
+      "path": "design_patterns/enclosures/stiffened-door.md",
+      "bytes": 648,
+      "sha256": "daebac098768cf564a6dee258eb80ed92e94c9960d573fde9090476526d27859"
+    },
+    {
+      "path": "design_patterns/sheet-metal/README.md",
+      "bytes": 611,
+      "sha256": "515dd920e77097829cf365f041764da034443a82b76750bb5ce142cc07117717"
+    },
+    {
+      "path": "dist/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/00-INSTRUCTIONS-COPY.txt",
+      "bytes": 5391,
+      "sha256": "c6ddcde54cbaf3749b170265e5354c9891f8f4460e4f885e4b9e9273ad71a3b5"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/01-sheet-metal-materials.md",
+      "bytes": 16940,
+      "sha256": "e020c8d6385e65c23fcc528942c5f76121c5f3bf25d77a1481d7bf906cedf83e"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/02-solidworks.md",
+      "bytes": 15917,
+      "sha256": "2747f459dc43b59aaa1df3dccfbebc2a50f9510048e291518f50206bf2956a4c"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/03-enclosures-ip-thermal-sealing.md",
+      "bytes": 12681,
+      "sha256": "0b3c864e73973de852ff5292f0e4931eae193553fe1276fdd26cf75e82fe6c48"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/04-drawing-gdt-tolerances-quality.md",
+      "bytes": 15357,
+      "sha256": "3ee2d2ffd931ac221dd42b4e7ae8501797fba9b5f4b955539d2007deb4ab0688"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/05-image-and-image-to-cad.md",
+      "bytes": 6624,
+      "sha256": "7adf0d3f938c6b8ef96dcd3be6c107ba76b6b46258e24a949d907e998179ab9e"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/06-cad-manufacturing-dfma-finishing.md",
+      "bytes": 13722,
+      "sha256": "2662df9da723efacdc07915a146dbcf73d58ef0a6a8281f7b76ef74b2c849e3b"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/07-mechanical-design-stiffness-hardware.md",
+      "bytes": 9222,
+      "sha256": "62591507f18262091b77fe6b84e9ee8f90564678e60f2b05427719a6ab20bae4"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/08-requirements-release-supplier-change.md",
+      "bytes": 5463,
+      "sha256": "ae8c37aed0476c83f29d77ba743511b9d1ca9360067bfae113d2c51874cc19f9"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/09-documentation-cost-quotation.md",
+      "bytes": 13898,
+      "sha256": "2dde0c1ded18cae85e0d6bde8a445b4e070545693d46b7c703b12f6111b613c3"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/glossary-sacmetal.md",
+      "bytes": 7885,
+      "sha256": "7b5b865bd65072a045abb0acac0ac314c15a418e89624264f13ad722cc6e0682"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/registry.md",
+      "bytes": 3156,
+      "sha256": "bfa52891a42659cd6c3aad8309eb5db50b657385a8a1eb28a6f47e7bd8774e8a"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/solidworks-ui-labels.csv",
+      "bytes": 2034,
+      "sha256": "bb51f25dcf5ca8b9f23f17b1846309ec06c5511d596c7619cca08bca4d8cad7d"
+    },
+    {
+      "path": "dist/chatgpt-knowledge/standards-map.md",
+      "bytes": 937,
+      "sha256": "d926f1f31f09032c001dcca361aae06b6a1819603243a044e0d84c410c992912"
+    },
+    {
+      "path": "dist/claude-project-compact/00-INSTRUCTIONS-COPY.txt",
+      "bytes": 5298,
+      "sha256": "b96d1d1911dd437902e47e8a4fba4999a326f494b611fa35f8fc96276dc0d906"
+    },
+    {
+      "path": "dist/claude-project-compact/01-sheet-metal-materials.md",
+      "bytes": 16940,
+      "sha256": "e020c8d6385e65c23fcc528942c5f76121c5f3bf25d77a1481d7bf906cedf83e"
+    },
+    {
+      "path": "dist/claude-project-compact/02-solidworks.md",
+      "bytes": 15917,
+      "sha256": "2747f459dc43b59aaa1df3dccfbebc2a50f9510048e291518f50206bf2956a4c"
+    },
+    {
+      "path": "dist/claude-project-compact/03-enclosures-ip-thermal-sealing.md",
+      "bytes": 12681,
+      "sha256": "0b3c864e73973de852ff5292f0e4931eae193553fe1276fdd26cf75e82fe6c48"
+    },
+    {
+      "path": "dist/claude-project-compact/04-drawing-gdt-tolerances-quality.md",
+      "bytes": 15357,
+      "sha256": "3ee2d2ffd931ac221dd42b4e7ae8501797fba9b5f4b955539d2007deb4ab0688"
+    },
+    {
+      "path": "dist/claude-project-compact/05-image-and-image-to-cad.md",
+      "bytes": 6624,
+      "sha256": "7adf0d3f938c6b8ef96dcd3be6c107ba76b6b46258e24a949d907e998179ab9e"
+    },
+    {
+      "path": "dist/claude-project-compact/06-cad-manufacturing-dfma-finishing.md",
+      "bytes": 13722,
+      "sha256": "2662df9da723efacdc07915a146dbcf73d58ef0a6a8281f7b76ef74b2c849e3b"
+    },
+    {
+      "path": "dist/claude-project-compact/07-mechanical-design-stiffness-hardware.md",
+      "bytes": 9222,
+      "sha256": "62591507f18262091b77fe6b84e9ee8f90564678e60f2b05427719a6ab20bae4"
+    },
+    {
+      "path": "dist/claude-project-compact/08-requirements-release-supplier-change.md",
+      "bytes": 5463,
+      "sha256": "ae8c37aed0476c83f29d77ba743511b9d1ca9360067bfae113d2c51874cc19f9"
+    },
+    {
+      "path": "dist/claude-project-compact/09-documentation-cost-quotation.md",
+      "bytes": 13898,
+      "sha256": "2dde0c1ded18cae85e0d6bde8a445b4e070545693d46b7c703b12f6111b613c3"
+    },
+    {
+      "path": "dist/claude-project-compact/glossary-sacmetal.md",
+      "bytes": 7885,
+      "sha256": "7b5b865bd65072a045abb0acac0ac314c15a418e89624264f13ad722cc6e0682"
+    },
+    {
+      "path": "dist/claude-project-compact/registry.md",
+      "bytes": 3156,
+      "sha256": "bfa52891a42659cd6c3aad8309eb5db50b657385a8a1eb28a6f47e7bd8774e8a"
+    },
+    {
+      "path": "dist/claude-project-compact/solidworks-ui-labels.csv",
+      "bytes": 2034,
+      "sha256": "bb51f25dcf5ca8b9f23f17b1846309ec06c5511d596c7619cca08bca4d8cad7d"
+    },
+    {
+      "path": "dist/claude-project-compact/standards-map.md",
+      "bytes": 937,
+      "sha256": "d926f1f31f09032c001dcca361aae06b6a1819603243a044e0d84c410c992912"
+    },
+    {
+      "path": "dist/claude-project-knowledge/01-sheet-metal-fundamentals.md",
+      "bytes": 7073,
+      "sha256": "453abdde2f679ca4ff15fbfc0c4cdb85c3295649b91085ffbef1cb27d926425b"
+    },
+    {
+      "path": "dist/claude-project-knowledge/02-bending-and-flat-pattern.md",
+      "bytes": 5414,
+      "sha256": "895312da8d30c5abcf17588e74ba632cc37c17b4a3ddef5b5e2f39f1c383fd95"
+    },
+    {
+      "path": "dist/claude-project-knowledge/03-solidworks-sheet-metal.md",
+      "bytes": 6221,
+      "sha256": "1657b70047677936b1ceeb09b157beaad05af497d51a826012955b55985cff97"
+    },
+    {
+      "path": "dist/claude-project-knowledge/04-solidworks-turkish-ui-and-terminology.md",
+      "bytes": 3989,
+      "sha256": "10f3bec735becd3dbb042748c83a91933003b0b1695b21bc9c98e699db096e62"
+    },
+    {
+      "path": "dist/claude-project-knowledge/05-enclosures-ip-ik.md",
+      "bytes": 6940,
+      "sha256": "2f8a9fc25a638650d2bdb486a166202a7ab8884f9cb9575be43160ce23bd60f4"
+    },
+    {
+      "path": "dist/claude-project-knowledge/06-technical-drawing.md",
+      "bytes": 4856,
+      "sha256": "1d2411556e8e940e7b1cbd6ae3b58f5d0f34ad378b54d17561021ab308ce3ed9"
+    },
+    {
+      "path": "dist/claude-project-knowledge/07-gdt-and-tolerancing.md",
+      "bytes": 5809,
+      "sha256": "1da2bfbb3eca70757f4cdd5a4c4acf4f2de1c3b4c084e4f28a8344dd30cd26f5"
+    },
+    {
+      "path": "dist/claude-project-knowledge/08-image-dimension-estimation.md",
+      "bytes": 4604,
+      "sha256": "dd6629ede5edff191a12cc6bb6be454b09b9f217e5100f97243cdaada75657cf"
+    },
+    {
+      "path": "dist/claude-project-knowledge/09-cad-engineering-practice.md",
+      "bytes": 4388,
+      "sha256": "c889df10914f482658d5facd86964812eb2346ea72f14ccda1ea366588d74f0a"
+    },
+    {
+      "path": "dist/claude-project-knowledge/10-engineering-documentation.md",
+      "bytes": 5133,
+      "sha256": "dc2e31dc0e39aee8035de7c664105fa7c05b924ab88f231b2a4d52ef90752380"
+    },
+    {
+      "path": "dist/claude-project-knowledge/11-quotation-and-commercial.md",
+      "bytes": 4571,
+      "sha256": "7fc9ecd95d1c3250c724e045f7bfccebb38779b185f8ad1ce5e4da2f8c399b27"
+    },
+    {
+      "path": "dist/claude-project-knowledge/12-cost-analysis.md",
+      "bytes": 3937,
+      "sha256": "aabcd1aaaee42ccb3bdc503dd2ded9aa609f7f39852b9cba6f580a8ab772ae18"
+    },
+    {
+      "path": "dist/claude-project-knowledge/13-solidworks-macros-api.md",
+      "bytes": 5450,
+      "sha256": "6e5b5c4fa717f10d1427fb839e881f11aae7bca6d4a8f6a8868783c1fdeb2a79"
+    },
+    {
+      "path": "dist/claude-project-knowledge/14-welding-fasteners-finishing.md",
+      "bytes": 5164,
+      "sha256": "347e0918caf4bc07d2f561aed9ff34700c11bf2d0a1f7903bbec232f4218b4c5"
+    },
+    {
+      "path": "dist/claude-project-knowledge/15-materials-reference.md",
+      "bytes": 4198,
+      "sha256": "91edfa3dbb847319b4d2ae0166d7253c60dff5e0c48ab40c45273bad5baaa51b"
+    },
+    {
+      "path": "dist/claude-project-knowledge/16-design-troubleshooting-and-decision-support.md",
+      "bytes": 2899,
+      "sha256": "f9efcf7fe5c4a0f8f1e4e28babc460d126d955ace97fed877fd3d2cf1119c64e"
+    },
+    {
+      "path": "dist/claude-project-knowledge/17-tolerance-stack-and-fits.md",
+      "bytes": 2601,
+      "sha256": "ac881ca82c91727fc6c969987591c486cbf4de54516b1df5562c77f641c992f5"
+    },
+    {
+      "path": "dist/claude-project-knowledge/18-enclosure-thermal-management.md",
+      "bytes": 2100,
+      "sha256": "57c27e47049f921342644f530bd17089dc3c8b48f15527683f5dff0af2b82e63"
+    },
+    {
+      "path": "dist/claude-project-knowledge/19-manufacturing-process-selection-and-dfma.md",
+      "bytes": 1995,
+      "sha256": "1ffd4f4b29438895b5aa599fd7ebeb9a92d272e4bbfd18913a5b5b9c2ed1af7a"
+    },
+    {
+      "path": "dist/claude-project-knowledge/20-image-to-cad-geometry-reconstruction.md",
+      "bytes": 1812,
+      "sha256": "ddca855ea736b34155d1752e957f0e8e04239d68d42a4a4b9ac074d26b2e79b0"
+    },
+    {
+      "path": "dist/claude-project-knowledge/21-requirements-risk-and-release.md",
+      "bytes": 1933,
+      "sha256": "489ff9d786fac193f3ad3d7ed223e17eea743cf493aaf339297e60c67367ca83"
+    },
+    {
+      "path": "dist/claude-project-knowledge/22-structural-stiffness-and-load-paths.md",
+      "bytes": 2343,
+      "sha256": "93722e705ed1e06100644e38e68514ef06259a0fd23c48521452ebdc682ef7aa"
+    },
+    {
+      "path": "dist/claude-project-knowledge/23-joints-fasteners-hinges-and-hardware.md",
+      "bytes": 2081,
+      "sha256": "a4fc7738db43168c14d8ad56346cba6615921d04e461e3e10d06c4af1e52d779"
+    },
+    {
+      "path": "dist/claude-project-knowledge/24-sealing-gaskets-and-ingress-details.md",
+      "bytes": 1718,
+      "sha256": "9fd252f1f6a545b5c2478bb104a83ad6d2b9a256040f0169cda28407b472fc1e"
+    },
+    {
+      "path": "dist/claude-project-knowledge/25-corrosion-finishing-and-material-compatibility.md",
+      "bytes": 1796,
+      "sha256": "a634d5739db011c237c8c452b8550b32a94f836d8c374457ee879be8d2127042"
+    },
+    {
+      "path": "dist/claude-project-knowledge/26-metrology-inspection-and-quality-planning.md",
+      "bytes": 1750,
+      "sha256": "0ae14302a321b1a6625c2d2700f2bb327b684ff611cd5b4dc28821c7bf0baa86"
+    },
+    {
+      "path": "dist/claude-project-knowledge/27-bom-revision-pdm-and-change-control.md",
+      "bytes": 1593,
+      "sha256": "5fc2abadec65f678ef16f04ac73db7d658361639dcb072621405daef08eba061"
+    },
+    {
+      "path": "dist/claude-project-knowledge/28-supplier-fabricator-rfq-and-handoff.md",
+      "bytes": 1635,
+      "sha256": "ff9417a1e52eb25d1f7130fde6e4bfe328eb49878ed6278272fdef2631cdd7a9"
+    },
+    {
+      "path": "dist/claude-project-knowledge/29-electrical-enclosure-layout-and-serviceability.md",
+      "bytes": 1559,
+      "sha256": "26c8dd95178d00551334ad9be68be74a5fbcfc7188f09f78db5f0bc8bf360253"
+    },
+    {
+      "path": "dist/claude-project-knowledge/30-engineering-sanity-checks-and-calculation-discipline.md",
+      "bytes": 1487,
+      "sha256": "04ffa285344d3aa9e550218750b08b0f545c85013d9fa60fd75c1d395b2c5c50"
+    },
+    {
+      "path": "dist/claude-project-knowledge/README.md",
+      "bytes": 1718,
+      "sha256": "b0bf59d292057bad7f145cc1f48fe5e84a85f38c5c7d3c8e3abe3366707e5866"
+    },
+    {
+      "path": "dist/claude-project-knowledge/glossary-sacmetal.md",
+      "bytes": 7885,
+      "sha256": "7b5b865bd65072a045abb0acac0ac314c15a418e89624264f13ad722cc6e0682"
+    },
+    {
+      "path": "dist/claude-project-knowledge/ip-codes.md",
+      "bytes": 1932,
+      "sha256": "efaa27306b36813ab42f8075dbd661e4f9d968cc0e9b307c811d7d9b5f2ebed8"
+    },
+    {
+      "path": "dist/claude-project-knowledge/registry.md",
+      "bytes": 3156,
+      "sha256": "bfa52891a42659cd6c3aad8309eb5db50b657385a8a1eb28a6f47e7bd8774e8a"
+    },
+    {
+      "path": "dist/claude-project-knowledge/sheet-metal-formulas.md",
+      "bytes": 1043,
+      "sha256": "a0f36b7462722d36be6681ca10171998fe1ed3ad9d2d4f7a61e1ef4ba390ff19"
+    },
+    {
+      "path": "dist/claude-project-knowledge/solidworks-ui-labels.csv",
+      "bytes": 2034,
+      "sha256": "bb51f25dcf5ca8b9f23f17b1846309ec06c5511d596c7619cca08bca4d8cad7d"
+    },
+    {
+      "path": "dist/claude-project-knowledge/standards-map.md",
+      "bytes": 937,
+      "sha256": "d926f1f31f09032c001dcca361aae06b6a1819603243a044e0d84c410c992912"
+    },
+    {
+      "path": "dist/claude-skills/ai-training-curator.zip",
+      "bytes": 2373,
+      "sha256": "395b85124fe54cd7a05ef4cdd9f1a13281c85b9bcaca45c9bc42532a35fc474e"
+    },
+    {
+      "path": "dist/claude-skills/cad-engineering-practice.zip",
+      "bytes": 2632,
+      "sha256": "a18ad17403cdcc9e84d82921e4b945811b5a9f4fb4214ea77e9dda6ce79fbeaa"
+    },
+    {
+      "path": "dist/claude-skills/cad-modeling-review.zip",
+      "bytes": 3261,
+      "sha256": "9e0c0fc79c15e62fcab8ed5272f40480706d7bb3ca48c1d44450b328568c3336"
+    },
+    {
+      "path": "dist/claude-skills/cost-analysis.zip",
+      "bytes": 12619,
+      "sha256": "23738579826a37bfb4daa2012470933d6ec25e4b7449c4799c12c91352e42177"
+    },
+    {
+      "path": "dist/claude-skills/design-review-orchestrator.zip",
+      "bytes": 4738,
+      "sha256": "87d96c2a47e06ae88845bcd696a5852534e003e698c52f0b712d684f1f22f5b4"
+    },
+    {
+      "path": "dist/claude-skills/design-troubleshooter.zip",
+      "bytes": 8565,
+      "sha256": "911393c9763129a3c7eb49c3e14e1a636b25a83dcdec3d5775582b58b495e9c2"
+    },
+    {
+      "path": "dist/claude-skills/enclosure-gasket-review.zip",
+      "bytes": 9537,
+      "sha256": "fc8391e3b5eb0de2a664cbb7ca92c516d2be44efcb2ac4d1e401c74382560e28"
+    },
+    {
+      "path": "dist/claude-skills/enclosure-thermal-review.zip",
+      "bytes": 7938,
+      "sha256": "ce8a3b01926afd20d8b39c06c254118281d4a0db325ff0363be5e2e6e5bbe38f"
+    },
+    {
+      "path": "dist/claude-skills/engineering-source-verification.zip",
+      "bytes": 4222,
+      "sha256": "ef621af479798c9b29e3e5b0aa502fd57bcdc2ac447bbc9caa4e3142a55910c9"
+    },
+    {
+      "path": "dist/claude-skills/engineering-task-intake.zip",
+      "bytes": 5198,
+      "sha256": "06f7248c5e3c1b00c82225754bd26cdfdb58ebcdd08b41c0abd8dd3744b6243d"
+    },
+    {
+      "path": "dist/claude-skills/engineering-visualization.zip",
+      "bytes": 1218,
+      "sha256": "8b04d501fc57b5e3678ef5effbe129870b41eb08a2fd29d243fd6be31eff33e9"
+    },
+    {
+      "path": "dist/claude-skills/flat-pattern-workflow.zip",
+      "bytes": 13592,
+      "sha256": "c8a214b31946548c859cad7016e57f262ee939fc86c611a1d3946b42a5c6b5cc"
+    },
+    {
+      "path": "dist/claude-skills/gdt-selection.zip",
+      "bytes": 9925,
+      "sha256": "c0ddb145354e365afeb101c4cf6780602b10a5fa13baabbac90f629935eeaf3e"
+    },
+    {
+      "path": "dist/claude-skills/image-dimension-estimation.zip",
+      "bytes": 5529,
+      "sha256": "4d16d84578427d4780889ccb643e09e4b1d9bdc296ca8dd599ae7b829b33f2d3"
+    },
+    {
+      "path": "dist/claude-skills/image-editing.zip",
+      "bytes": 1148,
+      "sha256": "2d6986e51cd243733a36cfc31a00f31a08144c6212961089a47ac86f745048e9"
+    },
+    {
+      "path": "dist/claude-skills/image-prompt-engineering.zip",
+      "bytes": 1442,
+      "sha256": "332e4aad48c290260589c6bc996f0744b22f1b27dd8c6addacae51aac2f560fa"
+    },
+    {
+      "path": "dist/claude-skills/image-to-cad-reconstruction.zip",
+      "bytes": 5464,
+      "sha256": "8f8349cfd3577caf11d050161d760786d0a2f3005afb2ac2a7105a661d57a0c2"
+    },
+    {
+      "path": "dist/claude-skills/ip-enclosure-design.zip",
+      "bytes": 11347,
+      "sha256": "b04a29b44f2c65aa9a15f024e64c69b71342a4a6325e34c707acbc19d9e9728c"
+    },
+    {
+      "path": "dist/claude-skills/joint-hardware-review.zip",
+      "bytes": 6197,
+      "sha256": "4dd1f7671fed2dd5a7c2d157ba6a1c750b7f5c3a973789a6663a019742f96e69"
+    },
+    {
+      "path": "dist/claude-skills/laser-dxf-marking-workflow.zip",
+      "bytes": 11546,
+      "sha256": "e4a25bc3f09fa4c5eabfa80cfc640e55ce02be6707d452481093fbbd6807bfa1"
+    },
+    {
+      "path": "dist/claude-skills/manufacturing-process-selection.zip",
+      "bytes": 11753,
+      "sha256": "c3fa77bc6cd2a66b156f5cc7919e430f03ef5da4fcf053ff86e9a353aeaf3b25"
+    },
+    {
+      "path": "dist/claude-skills/market-intelligence.zip",
+      "bytes": 5195,
+      "sha256": "ff4b061fa99003fbe801e75ed2a38de6ff9175a1d191ecd41945aa1213ced69f"
+    },
+    {
+      "path": "dist/claude-skills/material-property-research.zip",
+      "bytes": 5561,
+      "sha256": "0571dd912cc544c13e781349fe7410a19afc6c36d06d4a566c23064d697c216a"
+    },
+    {
+      "path": "dist/claude-skills/metrology-inspection-planning.zip",
+      "bytes": 7658,
+      "sha256": "2d737edb719d6eb7fee77a7da9cbe7ba882ee471b9a22f1c7591c19bc1e96e47"
+    },
+    {
+      "path": "dist/claude-skills/operating-system.zip",
+      "bytes": 1126,
+      "sha256": "73027a2f18e8e995769cbcf224488e50d8086101694ec4e0a9d331b5419a2a2b"
+    },
+    {
+      "path": "dist/claude-skills/quotation-generator.zip",
+      "bytes": 7174,
+      "sha256": "0b61e0d33d6bb85944669587024ebce1825376eba76fe7e5c6bce6b79a7c018d"
+    },
+    {
+      "path": "dist/claude-skills/reference-image-analysis.zip",
+      "bytes": 3639,
+      "sha256": "95b4bfde0168d4d97f5b3212f3b9892fbd60065d90ba23df21a27d43752cae09"
+    },
+    {
+      "path": "dist/claude-skills/requirements-and-risk-review.zip",
+      "bytes": 2967,
+      "sha256": "1854448f1489de15aecb0f3c01ca8ad7f4ac39123907e5f8fb6ec27e7cc27aa6"
+    },
+    {
+      "path": "dist/claude-skills/sealing-detail-review.zip",
+      "bytes": 5846,
+      "sha256": "49e869b1222c94d9181ffbd6a1d729fd3cba77507887d4dcadf18af5bb68dccc"
+    },
+    {
+      "path": "dist/claude-skills/sheet-metal-bend-analysis.zip",
+      "bytes": 12692,
+      "sha256": "fe8e44ffd16b0303f593bb392df451b792bb84b0f4780098858273d8c6df9757"
+    },
+    {
+      "path": "dist/claude-skills/sheet-metal-manufacturability-check.zip",
+      "bytes": 12734,
+      "sha256": "7655c6cb7db2c7887799535b119e3d0fd4214fc33c5ad80d55c9d0b47a62e03d"
+    },
+    {
+      "path": "dist/claude-skills/sheet-metal-release-workflow.zip",
+      "bytes": 10741,
+      "sha256": "f97cdf2885ad2584cc5e58df508c43b7692ca26fafa1571a925af9e680949ef8"
+    },
+    {
+      "path": "dist/claude-skills/sheet-metal-terminology.zip",
+      "bytes": 6333,
+      "sha256": "a262513ba8b221d56a77edecaef19563ae867ad3dbfb599abc904caf88e72517"
+    },
+    {
+      "path": "dist/claude-skills/sheet-metal-weld-fastener-review.zip",
+      "bytes": 9285,
+      "sha256": "f8d86b7e9479ab4a05f9e64fc1cfaac57966a91ea9612cfb39039979e21fdabc"
+    },
+    {
+      "path": "dist/claude-skills/solidworks-dxf-release-check.zip",
+      "bytes": 7837,
+      "sha256": "482411f2372b2f31efab375def5076c732ed690ecd8be28a5d2dd0d92d8c39a3"
+    },
+    {
+      "path": "dist/claude-skills/solidworks-macro-generator.zip",
+      "bytes": 8941,
+      "sha256": "c272d43b0111e75cc393bb6e87ddd33cfdaf19c9cb10c0230e9ca52845cded38"
+    },
+    {
+      "path": "dist/claude-skills/solidworks-sheet-metal-workflow.zip",
+      "bytes": 12876,
+      "sha256": "840cfa5ff0a0854234adfcaeb10e744391f8156c93387e9a198501926b34cf98"
+    },
+    {
+      "path": "dist/claude-skills/solidworks-turkish-ui.zip",
+      "bytes": 8934,
+      "sha256": "363046781f7e507e30cba9ab05d00057f21be7030c8fd80ec889f7c185cfb682"
+    },
+    {
+      "path": "dist/claude-skills/structural-stiffness-review.zip",
+      "bytes": 5712,
+      "sha256": "1d90377b6f89e53160e2e5bad0ecbcf44fa1a165d6874cddb6d626553d4e3b4f"
+    },
+    {
+      "path": "dist/claude-skills/supplier-handoff-review.zip",
+      "bytes": 4536,
+      "sha256": "6ca20434bbcc105b51da0fc75536f15aa6dee3be3e2703897d6ec86865481612"
+    },
+    {
+      "path": "dist/claude-skills/technical-document-generator.zip",
+      "bytes": 5691,
+      "sha256": "6344f65c938b445e6c6c477ce77d1b2bbdfe65fe2a176104a1340472d767dc78"
+    },
+    {
+      "path": "dist/claude-skills/technical-drawing-review.zip",
+      "bytes": 7864,
+      "sha256": "18d5c7c500656d9370284ca676e6279148ea13031c7a393fd4185cb2fd9e4265"
+    },
+    {
+      "path": "dist/claude-skills/title-block-design.zip",
+      "bytes": 7810,
+      "sha256": "4ac3e78c554a6b8f033a1ea15dfc3f47905ead52a075502f596b34da7431ed3f"
+    },
+    {
+      "path": "dist/claude-skills/tolerance-stack-analysis.zip",
+      "bytes": 6987,
+      "sha256": "8d63bdfd75194dd52aa9df2819e09b07b95358a598d967826619490c4247ec99"
+    },
+    {
+      "path": "dist/claude-skills/visual-generation.zip",
+      "bytes": 1019,
+      "sha256": "185ddc4e62d75ee30508be79d181b53960dc846efc13c1e1694a80b25fd29a94"
+    },
+    {
+      "path": "dist/claude-skills/weight-analysis.zip",
+      "bytes": 8520,
+      "sha256": "07eaa74224aba732ec06860310f8730bde0e779929e8aaef762349fb8bb0402e"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "bytes": 2325,
+      "sha256": "c6263552011cd648133866e8e839a2e4639cc5da49af1fb53d04a1ae4404e90e"
+    },
+    {
+      "path": "docs/DESIGN-HELP.md",
+      "bytes": 2452,
+      "sha256": "341cacf928ea28a9b63878943182adc6addf342415397be1686c3a05f4d78532"
+    },
+    {
+      "path": "docs/GETTING-STARTED-NOVICE.md",
+      "bytes": 2181,
+      "sha256": "579725b37214e431c0c6d16a5b124f8e7530b6ba711cdf29da3d561e4bed5c4c"
+    },
+    {
+      "path": "docs/KNOWLEDGE-GOVERNANCE.md",
+      "bytes": 1153,
+      "sha256": "ebdb8136aa7d4d60985536022687028221fc68842d220a398abe89544f3d53ff"
+    },
+    {
+      "path": "docs/LICENSING.md",
+      "bytes": 592,
+      "sha256": "8c4b19fa9a3acc35fd5f1cca08e1c2b6d18742f757bbc00edc0fc2ff60cb4421"
+    },
+    {
+      "path": "docs/MASTER-WORKFLOW.md",
+      "bytes": 1550,
+      "sha256": "1a505584eec75c117ec5d73929e589df8159857a770b86c49f600a70d8ab1890"
+    },
+    {
+      "path": "docs/SETUP-WINDOWS.md",
+      "bytes": 767,
+      "sha256": "ffc7dbfcf37676b9e00f09147e866887fd62abef891963e04ef599ba0826dc1b"
+    },
+    {
+      "path": "docs/USAGE.md",
+      "bytes": 1195,
+      "sha256": "8036a0a40c3e6cb1459da5ffdf80d27ee0c0e703d21b08348c2ef61472e36df9"
+    },
+    {
+      "path": "docs/conventions.md",
+      "bytes": 466,
+      "sha256": "6768b66e25a3ea721ca0d8790d6d2fc510431d7494b250cb441d68bb6fb4cc32"
+    },
+    {
+      "path": "docs/lifecycle.md",
+      "bytes": 516,
+      "sha256": "e2825647d4e1f78fb4ad02fcd18e7b41072ae95c813d5daa0ed5945da2478745"
+    },
+    {
+      "path": "docs/maturity-model.md",
+      "bytes": 1098,
+      "sha256": "72248be76f21d0c879e7c76063cd37df315f0ea59a1b41b623f8609f3868e2b8"
+    },
+    {
+      "path": "docs/releases/RELEASE-v1.0.md",
+      "bytes": 2156,
+      "sha256": "e877bfe9c53e0a6c5d03bf862d7ad141384241366e9b743db80df40556c57221"
+    },
+    {
+      "path": "docs/releases/release-v0.3.1.md",
+      "bytes": 745,
+      "sha256": "65849eb5682be523ce8dae4cd6be3054ecc2ebfb56cb42942fc77515924f0b90"
+    },
+    {
+      "path": "docs/releases/release-v0.4.0.md",
+      "bytes": 473,
+      "sha256": "dbe36aaa715ba73f387117495d65e70219041030e94e251360ca00089184f4ea"
+    },
+    {
+      "path": "docs/releases/release-v0.6.0.md",
+      "bytes": 450,
+      "sha256": "cd59b0b23e52d18de226a7d44eef6c2d983a2bc9eb6eed64d6370b8a82d26780"
+    },
+    {
+      "path": "docs/releases/release-v0.7.0.md",
+      "bytes": 590,
+      "sha256": "46c87a1a3577b8f6ea0cd744a946073aaea7463ef25565f1e6b6c98903fe92cf"
+    },
+    {
+      "path": "docs/releases/release-v0.8.0.md",
+      "bytes": 558,
+      "sha256": "ae7ba32797fdc00df6c864f71c20a22b50496ff26d481ab443ba1257a419a3d2"
+    },
+    {
+      "path": "docs/releases/release-v0.9.0.md",
+      "bytes": 848,
+      "sha256": "3297016b4c68ff2459965a1492702514505225c9e2b89d89718cc2da1b858718"
+    },
+    {
+      "path": "docs/releases/release-v1.2.md",
+      "bytes": 500,
+      "sha256": "cda9b51154c6555f87b5522c154da083acb98bd1afd7d635f83eec16cc1b0694"
+    },
+    {
+      "path": "docs/releases/release-v1.3.0.md",
+      "bytes": 165,
+      "sha256": "efe528e724571131292b76576772ce14e9b8233605ad6534230d2bac883682e2"
+    },
+    {
+      "path": "docs/releases/release-v2.0.0.md",
+      "bytes": 2322,
+      "sha256": "7538eb2e65b6e4c617afda398019bf2ebb80ba0a91a5f94a521893392b63029e"
+    },
+    {
+      "path": "docs/releases/release-v3.0.0.md",
+      "bytes": 1440,
+      "sha256": "c5050e5176d82b146f1050f97d0b7b58a4e215ffe1603f6f21198ba9e8114bca"
+    },
+    {
+      "path": "docs/releases/v1.0-release-check.md",
+      "bytes": 512,
+      "sha256": "97cf486870bc10a991dacdffcd874f253c15b729b903ade2853c65660b61a6f2"
+    },
+    {
+      "path": "docs/terminology-policy.md",
+      "bytes": 1540,
+      "sha256": "f4f83d95a218156239c897737613881b1119abf5105320d425633bbb262720b6"
+    },
+    {
+      "path": "docs/usage-guide.md",
+      "bytes": 689,
+      "sha256": "f59389df014f6cc56f41ad05d0c281f16c0c51902dd762fba008abd0d86c420e"
+    },
+    {
+      "path": "engineering_core/README.md",
+      "bytes": 809,
+      "sha256": "fd85ed36defe9f0ec334000e039b91a6bec0efdf58bb75e733052fe1af121adc"
+    },
+    {
+      "path": "engineering_core/__init__.py",
+      "bytes": 120,
+      "sha256": "18430b5dd22f9bab58e595dabbe91d0cb0ae4476c6449951d29e535714a550de"
+    },
+    {
+      "path": "engineering_core/evidence.py",
+      "bytes": 1132,
+      "sha256": "c477f873b4fb09b5e8dc5cfd758ce7bc973a885db05534a10040e64e6b1dcdb6"
+    },
+    {
+      "path": "engineering_core/models.py",
+      "bytes": 3722,
+      "sha256": "be11e14e054ca4dc198c8a433bf19df2ec0a24583a4075cd5712730690bfcb2b"
+    },
+    {
+      "path": "engineering_core/validation.py",
+      "bytes": 730,
+      "sha256": "e4a34f3f2201b01301b29e77a0e3c5aebc49095537f9e946e9e98f74d49fad24"
+    },
+    {
+      "path": "engines/image_to_cad/README.md",
+      "bytes": 1258,
+      "sha256": "c993f77eef2fcbd7c7c3ea4edb64135325174f4814a923f83d973a1eeb628953"
+    },
+    {
+      "path": "engines/image_to_cad/ROADMAP.md",
+      "bytes": 850,
+      "sha256": "8b98d74bcfa7204bf626f677b7ea0ee72470c8a7d0d5f687c56189a9c38c5d3e"
+    },
+    {
+      "path": "engines/image_to_cad/__init__.py",
+      "bytes": 36,
+      "sha256": "dea699226cdd895ea5b0d97c9ab8a76fe430672ee3e579fa002a868972862a41"
+    },
+    {
+      "path": "engines/image_to_cad/calibration/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/calibration/perspective.py",
+      "bytes": 579,
+      "sha256": "df6b4f12657b653ec0e5f8c81e4150610cb8b7968b2505fd8e69c973acfc805f"
+    },
+    {
+      "path": "engines/image_to_cad/calibration/scale.py",
+      "bytes": 1103,
+      "sha256": "848eb73c194339928069b9d177b689b375e257611bb7d5ffa784de31c1c3f576"
+    },
+    {
+      "path": "engines/image_to_cad/cli.py",
+      "bytes": 695,
+      "sha256": "94a553fb0f237e785d95febfde470abb9599d3e9c33e447578ab3867f665fa60"
+    },
+    {
+      "path": "engines/image_to_cad/detection/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/detection/primitives.py",
+      "bytes": 1718,
+      "sha256": "754894062501a345d0f246d985096195082c5941f476296feaa8a2714b8272a1"
+    },
+    {
+      "path": "engines/image_to_cad/examples/README.md",
+      "bytes": 190,
+      "sha256": "82b2ff792540571d7bd191882965955d82e918f81ddd5688b7001aee53c78161"
+    },
+    {
+      "path": "engines/image_to_cad/export/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/export/dxf.py",
+      "bytes": 943,
+      "sha256": "8f5f83722f827ed457b288c26e7ae7928fdcb5c8b138d6661d9075a664b485a0"
+    },
+    {
+      "path": "engines/image_to_cad/export/svg.py",
+      "bytes": 1337,
+      "sha256": "06a57a730a7bf103a00aebc6fb37728d7a35bfb8541c27ce6fc6d825617188ad"
+    },
+    {
+      "path": "engines/image_to_cad/geometry/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/geometry/constraints.py",
+      "bytes": 1139,
+      "sha256": "c4b84ca0a5e24350f4fe8c43778a70a2ab66cfbf73b7ac323a1e0e9e7d2b0bfc"
+    },
+    {
+      "path": "engines/image_to_cad/geometry/entities.py",
+      "bytes": 1545,
+      "sha256": "82fb454ab5806d3b1f3bd4fa432ecdbf7bee2e2d57af0ad4c3c9340733b578d5"
+    },
+    {
+      "path": "engines/image_to_cad/pipeline.py",
+      "bytes": 2157,
+      "sha256": "6bd87404565ca5cce0cfceefe6db665763772b7f31200ad71effde213f92b68d"
+    },
+    {
+      "path": "engines/image_to_cad/preprocessing/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/preprocessing/image.py",
+      "bytes": 666,
+      "sha256": "30c34ef10377759c095a62573a376216e400f5546900b47fc1fb9e048165336f"
+    },
+    {
+      "path": "engines/image_to_cad/requirements.txt",
+      "bytes": 40,
+      "sha256": "9f0eef04f5f2a726d885a0c15bb9d483d9ae633324e9a3411b7c1fba5dacc49a"
+    },
+    {
+      "path": "engines/image_to_cad/tests/test_synthetic.py",
+      "bytes": 1012,
+      "sha256": "8855653eba29ba57e74c501ddf815a8a9895ebe14ae9a3bc67d630ee2569dbc6"
+    },
+    {
+      "path": "engines/image_to_cad/validation/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "engines/image_to_cad/validation/manufacturing.py",
+      "bytes": 943,
+      "sha256": "e40eef8d7c4a5c05223189d4b6ea9022058e34dfbe90496bcf4b6a7029f3880b"
+    },
+    {
+      "path": "examples/compositions/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "knowledge/01-sheet-metal-fundamentals.md",
+      "bytes": 7073,
+      "sha256": "453abdde2f679ca4ff15fbfc0c4cdb85c3295649b91085ffbef1cb27d926425b"
+    },
+    {
+      "path": "knowledge/02-bending-and-flat-pattern.md",
+      "bytes": 5414,
+      "sha256": "895312da8d30c5abcf17588e74ba632cc37c17b4a3ddef5b5e2f39f1c383fd95"
+    },
+    {
+      "path": "knowledge/03-solidworks-sheet-metal.md",
+      "bytes": 6221,
+      "sha256": "1657b70047677936b1ceeb09b157beaad05af497d51a826012955b55985cff97"
+    },
+    {
+      "path": "knowledge/04-solidworks-turkish-ui-and-terminology.md",
+      "bytes": 3989,
+      "sha256": "10f3bec735becd3dbb042748c83a91933003b0b1695b21bc9c98e699db096e62"
+    },
+    {
+      "path": "knowledge/05-enclosures-ip-ik.md",
+      "bytes": 6940,
+      "sha256": "2f8a9fc25a638650d2bdb486a166202a7ab8884f9cb9575be43160ce23bd60f4"
+    },
+    {
+      "path": "knowledge/06-technical-drawing.md",
+      "bytes": 4856,
+      "sha256": "1d2411556e8e940e7b1cbd6ae3b58f5d0f34ad378b54d17561021ab308ce3ed9"
+    },
+    {
+      "path": "knowledge/07-gdt-and-tolerancing.md",
+      "bytes": 5809,
+      "sha256": "1da2bfbb3eca70757f4cdd5a4c4acf4f2de1c3b4c084e4f28a8344dd30cd26f5"
+    },
+    {
+      "path": "knowledge/08-image-dimension-estimation.md",
+      "bytes": 4604,
+      "sha256": "dd6629ede5edff191a12cc6bb6be454b09b9f217e5100f97243cdaada75657cf"
+    },
+    {
+      "path": "knowledge/09-cad-engineering-practice.md",
+      "bytes": 4388,
+      "sha256": "c889df10914f482658d5facd86964812eb2346ea72f14ccda1ea366588d74f0a"
+    },
+    {
+      "path": "knowledge/10-engineering-documentation.md",
+      "bytes": 5133,
+      "sha256": "dc2e31dc0e39aee8035de7c664105fa7c05b924ab88f231b2a4d52ef90752380"
+    },
+    {
+      "path": "knowledge/11-quotation-and-commercial.md",
+      "bytes": 4571,
+      "sha256": "7fc9ecd95d1c3250c724e045f7bfccebb38779b185f8ad1ce5e4da2f8c399b27"
+    },
+    {
+      "path": "knowledge/12-cost-analysis.md",
+      "bytes": 3937,
+      "sha256": "aabcd1aaaee42ccb3bdc503dd2ded9aa609f7f39852b9cba6f580a8ab772ae18"
+    },
+    {
+      "path": "knowledge/13-solidworks-macros-api.md",
+      "bytes": 5450,
+      "sha256": "6e5b5c4fa717f10d1427fb839e881f11aae7bca6d4a8f6a8868783c1fdeb2a79"
+    },
+    {
+      "path": "knowledge/14-welding-fasteners-finishing.md",
+      "bytes": 5164,
+      "sha256": "347e0918caf4bc07d2f561aed9ff34700c11bf2d0a1f7903bbec232f4218b4c5"
+    },
+    {
+      "path": "knowledge/15-materials-reference.md",
+      "bytes": 4198,
+      "sha256": "91edfa3dbb847319b4d2ae0166d7253c60dff5e0c48ab40c45273bad5baaa51b"
+    },
+    {
+      "path": "knowledge/16-design-troubleshooting-and-decision-support.md",
+      "bytes": 2899,
+      "sha256": "f9efcf7fe5c4a0f8f1e4e28babc460d126d955ace97fed877fd3d2cf1119c64e"
+    },
+    {
+      "path": "knowledge/17-tolerance-stack-and-fits.md",
+      "bytes": 2601,
+      "sha256": "ac881ca82c91727fc6c969987591c486cbf4de54516b1df5562c77f641c992f5"
+    },
+    {
+      "path": "knowledge/18-enclosure-thermal-management.md",
+      "bytes": 2100,
+      "sha256": "57c27e47049f921342644f530bd17089dc3c8b48f15527683f5dff0af2b82e63"
+    },
+    {
+      "path": "knowledge/19-manufacturing-process-selection-and-dfma.md",
+      "bytes": 1995,
+      "sha256": "1ffd4f4b29438895b5aa599fd7ebeb9a92d272e4bbfd18913a5b5b9c2ed1af7a"
+    },
+    {
+      "path": "knowledge/20-image-to-cad-geometry-reconstruction.md",
+      "bytes": 1812,
+      "sha256": "ddca855ea736b34155d1752e957f0e8e04239d68d42a4a4b9ac074d26b2e79b0"
+    },
+    {
+      "path": "knowledge/21-requirements-risk-and-release.md",
+      "bytes": 1933,
+      "sha256": "489ff9d786fac193f3ad3d7ed223e17eea743cf493aaf339297e60c67367ca83"
+    },
+    {
+      "path": "knowledge/22-structural-stiffness-and-load-paths.md",
+      "bytes": 2343,
+      "sha256": "93722e705ed1e06100644e38e68514ef06259a0fd23c48521452ebdc682ef7aa"
+    },
+    {
+      "path": "knowledge/23-joints-fasteners-hinges-and-hardware.md",
+      "bytes": 2081,
+      "sha256": "a4fc7738db43168c14d8ad56346cba6615921d04e461e3e10d06c4af1e52d779"
+    },
+    {
+      "path": "knowledge/24-sealing-gaskets-and-ingress-details.md",
+      "bytes": 1718,
+      "sha256": "9fd252f1f6a545b5c2478bb104a83ad6d2b9a256040f0169cda28407b472fc1e"
+    },
+    {
+      "path": "knowledge/25-corrosion-finishing-and-material-compatibility.md",
+      "bytes": 1796,
+      "sha256": "a634d5739db011c237c8c452b8550b32a94f836d8c374457ee879be8d2127042"
+    },
+    {
+      "path": "knowledge/26-metrology-inspection-and-quality-planning.md",
+      "bytes": 1750,
+      "sha256": "0ae14302a321b1a6625c2d2700f2bb327b684ff611cd5b4dc28821c7bf0baa86"
+    },
+    {
+      "path": "knowledge/27-bom-revision-pdm-and-change-control.md",
+      "bytes": 1593,
+      "sha256": "5fc2abadec65f678ef16f04ac73db7d658361639dcb072621405daef08eba061"
+    },
+    {
+      "path": "knowledge/28-supplier-fabricator-rfq-and-handoff.md",
+      "bytes": 1635,
+      "sha256": "ff9417a1e52eb25d1f7130fde6e4bfe328eb49878ed6278272fdef2631cdd7a9"
+    },
+    {
+      "path": "knowledge/29-electrical-enclosure-layout-and-serviceability.md",
+      "bytes": 1559,
+      "sha256": "26c8dd95178d00551334ad9be68be74a5fbcfc7188f09f78db5f0bc8bf360253"
+    },
+    {
+      "path": "knowledge/30-engineering-sanity-checks-and-calculation-discipline.md",
+      "bytes": 1487,
+      "sha256": "04ffa285344d3aa9e550218750b08b0f545c85013d9fa60fd75c1d395b2c5c50"
+    },
+    {
+      "path": "knowledge/README.md",
+      "bytes": 3963,
+      "sha256": "237d64645641a023b98d82f08e0c057a22282bd1b9e8fd457f47f9389ca7f4f1"
+    },
+    {
+      "path": "mai.bat",
+      "bytes": 42,
+      "sha256": "0c179f0bc2c5987b0e140031a3a5b9ca35e0fbae00674c7bb4dc3c4af18cfa2c"
+    },
+    {
+      "path": "mai.ps1",
+      "bytes": 104,
+      "sha256": "522b92c91760fa8ad400c1e34a2603905b9a12a40790eeb491690f0bd16c2455"
+    },
+    {
+      "path": "mh-compat/README.md",
+      "bytes": 765,
+      "sha256": "2ca2cdb0ba013a6a119f8a7dc89a0e50bd2913b11e8755ffe23f9a8ab8cd854d"
+    },
+    {
+      "path": "mh-compat/commands/README.md",
+      "bytes": 1085,
+      "sha256": "7ba53345fe5692d6a7be20996369873fa2eeef2b07c2b53fd8fdda7c19039d7c"
+    },
+    {
+      "path": "mh-compat/modes/README.md",
+      "bytes": 1097,
+      "sha256": "c5fcf87396fcbf457e0eeb8225ce88bb458c0e2d20fd9efbd3c42741b05b1960"
+    },
+    {
+      "path": "mh-compat/modes/mode-selection.md",
+      "bytes": 583,
+      "sha256": "b753a99243822f9bb4bede1955ee4bd58e2bcadeae91359c979f54a16541f1ae"
+    },
+    {
+      "path": "mh-compat/templates/blueprint.md",
+      "bytes": 301,
+      "sha256": "42653502766914da44c8351de055e94f6e22f5ff5c12c452f134b873a4f40823"
+    },
+    {
+      "path": "mh-compat/templates/master.md",
+      "bytes": 288,
+      "sha256": "4e3572d9534c4622b2816c1b66ff5f5f4df13a9a602139e8a16f5a53170b1d26"
+    },
+    {
+      "path": "mh-compat/templates/module.md",
+      "bytes": 284,
+      "sha256": "890f2eac35b7e0c238d6ef4f0267ac4a8f782395470483890256731986564a11"
+    },
+    {
+      "path": "project-profiles/README.md",
+      "bytes": 1101,
+      "sha256": "f96d4cb5fa0a31a626dcfdb998e2410359f63fbe0cdac3b8516f6223c6b2a44c"
+    },
+    {
+      "path": "project-profiles/example-fabricator-profile.json",
+      "bytes": 767,
+      "sha256": "c726e1d3d85551e928e397557806b253423d45d2b39d264e0681a91403eef333"
+    },
+    {
+      "path": "project-profiles/example-fabricator-profile.yaml",
+      "bytes": 653,
+      "sha256": "0bf89285c6e9d8850cbc5da3a0232ae5114998775bcbddc5d8ce4cb07d213737"
+    },
+    {
+      "path": "prompts/masters/active/mai-master-mechanical-ai-library-orchestrator.md",
+      "bytes": 5861,
+      "sha256": "e052c1b4574e0bf7ce068a6b3c0bf06ebd04279a14c1f31d7a4c4f7bfba9a9bc"
+    },
+    {
+      "path": "prompts/masters/archived/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prompts/mh-master-mode-router.md",
+      "bytes": 866,
+      "sha256": "c61727ba06c362ef91e08f0e0066da9378ef59ae6e3688d54cde3f041407dbf8"
+    },
+    {
+      "path": "prompts/modules/capability/context-audit.md",
+      "bytes": 1612,
+      "sha256": "f2e843fcf323bb11249b7a2f1cbe6ca586b730ccd948c7ac8316d3cd5476e173"
+    },
+    {
+      "path": "prompts/modules/capability/image-measurement.md",
+      "bytes": 1441,
+      "sha256": "75813b01ed8bb874c1098c37c93de405db93a1d9bc6046fb46e9642b25c60f1e"
+    },
+    {
+      "path": "prompts/modules/capability/market-research-method.md",
+      "bytes": 879,
+      "sha256": "403bfc55110ba524ef636f99e32b4da589d682a02c006272f730e139962b4ca6"
+    },
+    {
+      "path": "prompts/modules/capability/source-validation.md",
+      "bytes": 1529,
+      "sha256": "4222a6bda5cc59e34d5da5454a41d0a102a10dd9bd575e875bed01b22434fa21"
+    },
+    {
+      "path": "prompts/modules/capability/technical-verification.md",
+      "bytes": 1407,
+      "sha256": "2e76f67fa81063a61e26f3f25904802bd37b202976dae4512832a87ca7b2dcbe"
+    },
+    {
+      "path": "prompts/modules/capability/uncertainty-management.md",
+      "bytes": 1290,
+      "sha256": "715142166393fcacd601b3eded33a9dfa204e43b676359a47ba25f138336991c"
+    },
+    {
+      "path": "prompts/modules/constraints/no-fabrication.md",
+      "bytes": 1586,
+      "sha256": "df6dff41d6ce4bd79f6dca676d94592d7f2387cbf6f7fe78b45c6af20e6fb45c"
+    },
+    {
+      "path": "prompts/modules/domain/cost-model.md",
+      "bytes": 1341,
+      "sha256": "13ac1a80a984c8c936d029902c5f18b2647efcd5237e2ba56330f5c8c5c01339"
+    },
+    {
+      "path": "prompts/modules/domain/enclosure-ip-design.md",
+      "bytes": 1341,
+      "sha256": "4d5f10c79a1ffd8cfe1c8d1269343215e3bd5e560410dd130d381aa87eb83bb5"
+    },
+    {
+      "path": "prompts/modules/domain/engineering-terminology.md",
+      "bytes": 1111,
+      "sha256": "728c3ff3b19d3f9ec13c4df86dfabead790dc5c72e833616ecd41fc1e6ea1f27"
+    },
+    {
+      "path": "prompts/modules/domain/manufacturing-chain.md",
+      "bytes": 1503,
+      "sha256": "deb8016a2bcb894fbadd4f86efe3e4c2368e7dd7e218e806659a74b4761847c5"
+    },
+    {
+      "path": "prompts/modules/domain/sheet-metal-domain.md",
+      "bytes": 1481,
+      "sha256": "fed73c1a2d2fe966da38dff36f67b703e95fd72e64909925726d4a270db5159e"
+    },
+    {
+      "path": "prompts/modules/domain/solidworks-turkish-ui.md",
+      "bytes": 1446,
+      "sha256": "2a0f33ae0c94bd1660ea7d25f27c3a66f7b8625cd3f72f6e2bd183a5f237e59d"
+    },
+    {
+      "path": "prompts/modules/output/action-summary.md",
+      "bytes": 898,
+      "sha256": "93c204cce005280c49f5a3c9b89242a19daa5ef72c93cd17bbfe27207648410f"
+    },
+    {
+      "path": "prompts/modules/output/technical-output.md",
+      "bytes": 1084,
+      "sha256": "d2cd755d29e207ed0b32e9b23f09ed07b4998d23b9b1b8dfe0cd4407524476c3"
+    },
+    {
+      "path": "prompts/modules/tone/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-ai-training-curator.md",
+      "bytes": 2368,
+      "sha256": "e0cef4e58e5ac5cd8af1fda4d26af78d3f9ea732a60fa3e28e41e3289c04097a"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-cad-engineering-practice.md",
+      "bytes": 2466,
+      "sha256": "374534944e997054dda91c2c5680d2f6709037f7cb780ddc75ce8aae3d60888a"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-cost-analysis.md",
+      "bytes": 1826,
+      "sha256": "effa5bc11db1664d0d0d412cc1390c553483acc51e58ffcf3053ac5d7c3918c9"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-enclosure-gasket-review.md",
+      "bytes": 980,
+      "sha256": "298e168c53e05c23865916f4f0c5d5cae9083410b42c5065705943eb2c0f4317"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-enclosure-ip-design-review.md",
+      "bytes": 1993,
+      "sha256": "2243633347c0f435b6bc81804a0938b52dbf3c25e1a8df88c8e37695e9e42f09"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-engineering-task-intake.md",
+      "bytes": 2098,
+      "sha256": "9f6eb3834b16b6f1062fd23d76028b85a373b358b3578aa0cc53755d848a06e8"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-flat-pattern-workflow.md",
+      "bytes": 2196,
+      "sha256": "f3f76052c558c2e992f5b09786dd5b80851d43ed475b138ae4ba3480fc0b8f37"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-gdt-selection.md",
+      "bytes": 2316,
+      "sha256": "c03d8f6748fb0b0d2cd838a87d8ead729c10df073fdc31f407e6d95c75b0bee5"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-image-dimension-estimation.md",
+      "bytes": 2110,
+      "sha256": "05cbb24a16299c945fb6ed22f9ec8f89ba9f7ffd7a835f5125d57a0d4828c3d1"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-laser-dxf-workflow.md",
+      "bytes": 2101,
+      "sha256": "b8f9206b81ff1cb73b8f239480dbabe57dc6b700b74a7907675a9ddf40f8dbde"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-market-intelligence.md",
+      "bytes": 1640,
+      "sha256": "916cd7a8dc96caf8a46d7820d4702963e3c1c257c6b942e83430dbf7c080edee"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-material-property-research.md",
+      "bytes": 1035,
+      "sha256": "a75edd2c9648c9b765678970d47cc90f2ac6abae6ae5c9746ab75a8d70930e0e"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-quotation-generator.md",
+      "bytes": 1012,
+      "sha256": "0084a69cffc94efb074d85ded1434868fb8e2c2a06d2717160422365a1fa9e6f"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-sheet-metal-bend-analysis.md",
+      "bytes": 1927,
+      "sha256": "c5d123e35bf57bdf11099dc16e816c60aad545bb0eb64c81c10e3a543a801f87"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-sheet-metal-manufacturability-check.md",
+      "bytes": 2236,
+      "sha256": "fdbe60971fe93ceb7f6bfddabfd49efcb4144f6e2d9e885f203f3357b2738692"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-sheet-metal-release-workflow.md",
+      "bytes": 1049,
+      "sha256": "6fe89e49816ab3eaf84d549b66270354804b230c756e57ca2e1f7534e45d91ae"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-sheet-metal-terminology.md",
+      "bytes": 2378,
+      "sha256": "6c2a0691d1534c1f62d4965940f1c0036cbc55e9efb4d680d9af7a51d0c06a9e"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-sheet-metal-weld-fastener-review.md",
+      "bytes": 987,
+      "sha256": "046dad417b559cdf2c5b639ae683e8c520873f48ca55aecb6da2e8501f451e3d"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-solidworks-dxf-release-check.md",
+      "bytes": 991,
+      "sha256": "4e5b4fb6ad03611fcc7e952f9c77f98c192f42efdcb07ab578f69f96f0accb1e"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-solidworks-macro-generator.md",
+      "bytes": 2582,
+      "sha256": "e4a430d1300372e60d06af3d2cc3b750d234645c90dea362155b8f589460dc98"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-solidworks-sheet-metal-workflow.md",
+      "bytes": 2416,
+      "sha256": "b968a816cd30c86c6dae5158f5bc2ef768bb733ff80cc0a5497da4a072e25e5c"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-solidworks-turkish-ui.md",
+      "bytes": 1958,
+      "sha256": "02037b1d93fa03416a37c3b8e594fd9d783bb1645c3e086cb970687dee4487ff"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-technical-document-generator.md",
+      "bytes": 1998,
+      "sha256": "381ca638f203255c9de1c21dbfc3643a3875b59730e68379de7bd0ef9cfe0708"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-technical-drawing-review.md",
+      "bytes": 2257,
+      "sha256": "6ce2e4f72d934f51b492a032602c05d22ce9331a34db7e5cfba34dfec462e0ac"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-title-block-design.md",
+      "bytes": 1015,
+      "sha256": "05c85ef16941ac7495078edcb33854e1a0e6ed776f2be04179338f89f39eccd8"
+    },
+    {
+      "path": "prompts/skill-blueprints/mai-blueprint-weight-analysis.md",
+      "bytes": 1972,
+      "sha256": "a18d0c6ae9251d5839e681242d7a84574bc4fb54dccf40222c33e99b22666245"
+    },
+    {
+      "path": "rag/README.md",
+      "bytes": 1152,
+      "sha256": "b63026be14134cd9687b2b98511cdd0f39182e9100fc1b7846952a4e6f2ff02d"
+    },
+    {
+      "path": "rag/__init__.py",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "rag/build_index.py",
+      "bytes": 1715,
+      "sha256": "47e48ae883979335d7b410669559139c76abd4173d8f1c1656ec1039a3c46ad8"
+    },
+    {
+      "path": "rag/index.json",
+      "bytes": 410947,
+      "sha256": "6ce6701b97e8fe42116fb76dba71ede82be16b6373e4964fde7de265abaf8553"
+    },
+    {
+      "path": "rag/retrieve.py",
+      "bytes": 2004,
+      "sha256": "1aea2b4446c2de9a408fb5cb32f711785ddaefbdb798163606fa357d6042ac58"
+    },
+    {
+      "path": "rag/tokenize.py",
+      "bytes": 366,
+      "sha256": "c0a6cf5d3ed5c5fbbace177b92f7365a924e231fe52906727c5d4883ce178694"
+    },
+    {
+      "path": "reference/dxf-laser-notes.md",
+      "bytes": 1278,
+      "sha256": "f8c4694fc6547c2b09bacbbef762f2b5f713bcf442ba49793a62bb3e06a88749"
+    },
+    {
+      "path": "reference/fasteners-threads.md",
+      "bytes": 1593,
+      "sha256": "a9aa28192f78f200634b9b9552f5b67879043c4a1d5082edf135f49d5ef191ba"
+    },
+    {
+      "path": "reference/gdt-symbols.md",
+      "bytes": 1623,
+      "sha256": "5fd342cecc483d34e2a8964c5e712ab4c5b0c5c1ae12df2ebeaafb4be52484e8"
+    },
+    {
+      "path": "reference/glossary-sacmetal.md",
+      "bytes": 7885,
+      "sha256": "7b5b865bd65072a045abb0acac0ac314c15a418e89624264f13ad722cc6e0682"
+    },
+    {
+      "path": "reference/glossary.csv",
+      "bytes": 7204,
+      "sha256": "f5a9381eb9d3befeb6d06593c6bc3097d364abcea3b678ad4b57856b27f5a87d"
+    },
+    {
+      "path": "reference/ip-codes.md",
+      "bytes": 1932,
+      "sha256": "efaa27306b36813ab42f8075dbd661e4f9d968cc0e9b307c811d7d9b5f2ebed8"
+    },
+    {
+      "path": "reference/market-and-evidence-labels.md",
+      "bytes": 576,
+      "sha256": "d535c730f6d02b11c47d6c671483f5dc42bcd8cb0d1a5c6671ba5625e6a423fd"
+    },
+    {
+      "path": "reference/materials.md",
+      "bytes": 1561,
+      "sha256": "30dae8e6a074e81f84fb5f4c3303f5256306d13b5c0f8a8215c0da29256cb30d"
+    },
+    {
+      "path": "reference/sheet-metal-formulas.md",
+      "bytes": 1043,
+      "sha256": "a0f36b7462722d36be6681ca10171998fe1ed3ad9d2d4f7a61e1ef4ba390ff19"
+    },
+    {
+      "path": "reference/solidworks-ui-labels.csv",
+      "bytes": 2034,
+      "sha256": "bb51f25dcf5ca8b9f23f17b1846309ec06c5511d596c7619cca08bca4d8cad7d"
+    },
+    {
+      "path": "reference/standards-map.md",
+      "bytes": 937,
+      "sha256": "d926f1f31f09032c001dcca361aae06b6a1819603243a044e0d84c410c992912"
+    },
+    {
+      "path": "schemas/fabricator-profile.schema.json",
+      "bytes": 734,
+      "sha256": "d59953ec136d3cf88153f1f2fd3fdb06633ab442e7a401d0ca6f2554b9a799d1"
+    },
+    {
+      "path": "schemas/sheet-metal-part.schema.json",
+      "bytes": 1885,
+      "sha256": "39a6d995b8bd2c43341fe9fbd605e0c262295ab4bc248a07e409e59d584a5acc"
+    },
+    {
+      "path": "scripts/build_glossary.py",
+      "bytes": 1245,
+      "sha256": "ac8436baa753d5ec7f1c4bd80169d23aa2d25d3978c4c90e892b68820eda29bc"
+    },
+    {
+      "path": "scripts/build_release.py",
+      "bytes": 1973,
+      "sha256": "b2d54d0435d045df0384af44ab0b3a1fe5926a16c07ba61e1297744487ac1548"
+    },
+    {
+      "path": "scripts/check_missing_links.py",
+      "bytes": 611,
+      "sha256": "01e15786e801d4240e68269381a7045e2736272d16f0f0b93c17e70595257e33"
+    },
+    {
+      "path": "scripts/compose_prompt.py",
+      "bytes": 1558,
+      "sha256": "ceafd37046d4e5b0153feaa2f8153d7c62b3da73df7106236d883cc1d2bdbe5b"
+    },
+    {
+      "path": "scripts/export_chatgpt.py",
+      "bytes": 3108,
+      "sha256": "5cec5ffb5fc3267a334a4b0f563063dfa394749c932274ba455fb2746a3d6c56"
+    },
+    {
+      "path": "scripts/export_claude_skills.py",
+      "bytes": 3479,
+      "sha256": "a7095482ba6eaa1431e9d3eae4fd0b53e02947cc809b266e58187452a5dfc4cc"
+    },
+    {
+      "path": "scripts/generate_catalog.py",
+      "bytes": 801,
+      "sha256": "4d4b2c4ed267cc4f492675c8d6988ff29bf4162f2a6059563bd4cdb430a7d41c"
+    },
+    {
+      "path": "scripts/generate_skill_catalog.py",
+      "bytes": 1215,
+      "sha256": "3fc3519dadde84a4d061c22075ce05ca8bf5473f40022799e4a61fe4f4d8f30c"
+    },
+    {
+      "path": "scripts/generate_source_reference.py",
+      "bytes": 1072,
+      "sha256": "950ce735d5502d9bbbe42d2a1325a2793efa4d022979407284be222c29e3e1c4"
+    },
+    {
+      "path": "scripts/mai.py",
+      "bytes": 2654,
+      "sha256": "2a735db47bf95fe9b1ec176790fdf6205509b665372086d3f83d329db7d3b631"
+    },
+    {
+      "path": "scripts/new_prompt.py",
+      "bytes": 1216,
+      "sha256": "56b9d67b2d9fe353f675c09af2e6ef89cee5c92366e838e27993574af83c5d6d"
+    },
+    {
+      "path": "scripts/validate_all.py",
+      "bytes": 4807,
+      "sha256": "e99eb989e02810b27293b8e86e024db1cfea99dd4c59a03dd3659817b3175c92"
+    },
+    {
+      "path": "scripts/validate_catalog.py",
+      "bytes": 659,
+      "sha256": "8d574ff95521d5355764f77bf37fd2be6b9d9bd54cd78d39c0d1257726852124"
+    },
+    {
+      "path": "scripts/validate_content.py",
+      "bytes": 1238,
+      "sha256": "bfa507776f2c6c78a7a697110fbdb243f0936ceb9f5fb97431aa0cf9a0eb3edf"
+    },
+    {
+      "path": "scripts/validate_engineering.py",
+      "bytes": 1905,
+      "sha256": "f35becb48d6296831102cea2de8acd1b269ab0fff30f68e1b5fbded5137b8493"
+    },
+    {
+      "path": "scripts/validate_localization.py",
+      "bytes": 634,
+      "sha256": "3a21c71de9ac4968b4b7f0e7033435584e3aaa39dbdfef9cc6fe1dcbcab00a58"
+    },
+    {
+      "path": "scripts/validate_metadata.py",
+      "bytes": 1231,
+      "sha256": "8c701c75308a715c3f9d331bb33ce86ad83f9be3fa5c9eb083cec48f6fb3a528"
+    },
+    {
+      "path": "scripts/validate_reference.py",
+      "bytes": 1288,
+      "sha256": "a8d0d38798a67c81ca708adc8bdc700cc1e02256b8caaab9d44fd32cc9be4bfb"
+    },
+    {
+      "path": "scripts/validate_sources.py",
+      "bytes": 1277,
+      "sha256": "2159cdc29451cccde66412c669d591beea2b5abb054007c614e932f63b263bbb"
+    },
+    {
+      "path": "skills/ai-training-curator/SKILL.md",
+      "bytes": 2534,
+      "sha256": "f625b74e80d41535ab06db3b57ec0385bf0e1e7ecec4ce87cbafc543902a5b5c"
+    },
+    {
+      "path": "skills/ai-training-curator/examples/example.md",
+      "bytes": 515,
+      "sha256": "69bb197178aeda038338bfdbfe66a57a6249b8998099928f7943b15ab8d447b6"
+    },
+    {
+      "path": "skills/ai-training-curator/knowledge/scope.md",
+      "bytes": 135,
+      "sha256": "7061bf527e94ce3d47a4d18d28cf5b3780403767660e7bff7465461c2bb6820f"
+    },
+    {
+      "path": "skills/ai-training-curator/tests/smoke.md",
+      "bytes": 361,
+      "sha256": "d7e6b32adad2e5e0056253810e6fc311cef0260210d68e3292d3fdeb5d7e6f31"
+    },
+    {
+      "path": "skills/ai-training-curator/workflows/default-workflow.md",
+      "bytes": 701,
+      "sha256": "dcd271e5cc82211c69baeb35667f032f0df78222154b8ab547807a9e358f8111"
+    },
+    {
+      "path": "skills/cad-engineering-practice/SKILL.md",
+      "bytes": 2688,
+      "sha256": "ac93d759b231913d3a07be30ff519baa7101943b798864ecc06dcc58bd6e833e"
+    },
+    {
+      "path": "skills/cad-engineering-practice/examples/example.md",
+      "bytes": 759,
+      "sha256": "82d2bb916de5ec3fa99ee51d525cf972229d9adb2c65be2fa37badfd5eeb4876"
+    },
+    {
+      "path": "skills/cad-engineering-practice/knowledge/scope.md",
+      "bytes": 133,
+      "sha256": "338c85f5a417885819eb2ebddaf92c4946700b2927fd00e046cafc9b909dab73"
+    },
+    {
+      "path": "skills/cad-engineering-practice/tests/smoke.md",
+      "bytes": 450,
+      "sha256": "368a6e590e1d39af9a60e3a1f9b69dc87312f772e6d5ae6769e04d393f97f9a1"
+    },
+    {
+      "path": "skills/cad-engineering-practice/workflows/default-workflow.md",
+      "bytes": 651,
+      "sha256": "c277f91963bd2f0632d94c77bb2462a59d9222536f88b75098982d9da0f8ddf9"
+    },
+    {
+      "path": "skills/cad-modeling-review/SKILL.md",
+      "bytes": 3534,
+      "sha256": "d01fc6a952ab897b02b6f059d172d24575f32fa1ea5033d5da908876d08547b1"
+    },
+    {
+      "path": "skills/cad-modeling-review/examples/example.md",
+      "bytes": 291,
+      "sha256": "beec6c30a34261d6a1a024a32036789479cb0b711d6a5330ebe55741fbb8b3f5"
+    },
+    {
+      "path": "skills/cad-modeling-review/knowledge/model-hygiene-checklist.md",
+      "bytes": 690,
+      "sha256": "bcf64d280d1cec9d242eb974500d94397e7564556e537789c335b25498931721"
+    },
+    {
+      "path": "skills/cad-modeling-review/tests/smoke.md",
+      "bytes": 292,
+      "sha256": "82ec7edf365bd4fc2ee123893a36303de2e70e501a945d7385a4cf972825ac3f"
+    },
+    {
+      "path": "skills/cad-modeling-review/workflows/default-workflow.md",
+      "bytes": 927,
+      "sha256": "06b5749186917acb1ab0e21e2cbaa591ca2ecfc6e79866cb16069e9a0c5f23bc"
+    },
+    {
+      "path": "skills/cost-analysis/SKILL.md",
+      "bytes": 3608,
+      "sha256": "347c5a2de73726f778bf15b91488bb1cc3a83c6427a5751be04ac15c95c12fb0"
+    },
+    {
+      "path": "skills/cost-analysis/examples/example.md",
+      "bytes": 1214,
+      "sha256": "0ac7c4281dda6bd688fe3c47772d8335b3a7689f4775037372f43c3b2deddd28"
+    },
+    {
+      "path": "skills/cost-analysis/examples/sheet-metal-cost.md",
+      "bytes": 500,
+      "sha256": "bba710dcd92d90aa98448b39b9caef654872d745f02c9bdc0a6f0e0b0aa5eb09"
+    },
+    {
+      "path": "skills/cost-analysis/knowledge/cost-model.md",
+      "bytes": 862,
+      "sha256": "50701354cd1ad45ae481778f5e7da2de7bc0f59d9ea001b7d1247504b1d31b17"
+    },
+    {
+      "path": "skills/cost-analysis/knowledge/scope.md",
+      "bytes": 600,
+      "sha256": "26224f79e42f58454c7dd288da9d6987b3d1ac9a786e797e8c64369230f98e72"
+    },
+    {
+      "path": "skills/cost-analysis/tests/cost-test.md",
+      "bytes": 308,
+      "sha256": "12b4192e8c907ba76a273a12d11f61d8192385bd401eebeaf21c9d79d694fbb3"
+    },
+    {
+      "path": "skills/cost-analysis/tests/smoke.md",
+      "bytes": 851,
+      "sha256": "48194cfffcb916647889604805d28db3f7cacba2cd037835ecf72e45d0fdc5cb"
+    },
+    {
+      "path": "skills/cost-analysis/workflows/default-workflow.md",
+      "bytes": 705,
+      "sha256": "364a59b3631dc1b03a7804078c90d0c8bff5f8cadf05467101694beb25cd728a"
+    },
+    {
+      "path": "skills/design-review-orchestrator/SKILL.md",
+      "bytes": 1962,
+      "sha256": "63cf632cb04f48e9650014ca052944d59ecdfcd0ef8c3f0130473b909ebfb7c2"
+    },
+    {
+      "path": "skills/design-review-orchestrator/examples/example.md",
+      "bytes": 299,
+      "sha256": "6b0b4cce95af00f55e5496d2b9686783007ccf8e99a18a2a1c4126bd59a1c727"
+    },
+    {
+      "path": "skills/design-review-orchestrator/knowledge/scope.md",
+      "bytes": 156,
+      "sha256": "af69103f39d0d46bde7e4278676863044cbce3c65d56d2a9c8a9ddd9878241ca"
+    },
+    {
+      "path": "skills/design-review-orchestrator/tests/smoke.md",
+      "bytes": 274,
+      "sha256": "c322e0a583db132b755af8c12a4ed56359b4c85d596d5dc97bc06c1dfc06bacf"
+    },
+    {
+      "path": "skills/design-review-orchestrator/workflows/default-workflow.md",
+      "bytes": 414,
+      "sha256": "1cdb947fa609266d0db325e0482f775fdb018c2b99eb40833ea0d6f1bffc7c30"
+    },
+    {
+      "path": "skills/design-troubleshooter/SKILL.md",
+      "bytes": 2231,
+      "sha256": "5027e5d3728049b57441a13a171e037f11fa2c3955b20dcdb75bf42fe51f8403"
+    },
+    {
+      "path": "skills/design-troubleshooter/examples/example.md",
+      "bytes": 292,
+      "sha256": "65774bea7d2ae463080a0dccc4cdc245214e79d92be9e1758a2ed3fdd46e0e30"
+    },
+    {
+      "path": "skills/design-troubleshooter/knowledge/scope.md",
+      "bytes": 149,
+      "sha256": "a666d3a62bc636f383f8cc9f7a96e785ec0e3ab8aed38225c0b1064440ce782e"
+    },
+    {
+      "path": "skills/design-troubleshooter/tests/smoke.md",
+      "bytes": 267,
+      "sha256": "4511e46cee8c72b2bf8a826536abc1dc004ec8adc9f554911b83e88b34f28731"
+    },
+    {
+      "path": "skills/design-troubleshooter/workflows/default-workflow.md",
+      "bytes": 485,
+      "sha256": "016d7a26f6ee340735bfff4402317c1b54f5ac321622032c84cd5e21f7a16d04"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/SKILL.md",
+      "bytes": 2094,
+      "sha256": "34cb7ce52f87ae4c77bd1ee7bcf72f1094977544e263fbf6881a3c32c21cabed"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/examples/example.md",
+      "bytes": 317,
+      "sha256": "2859cb8bb89ebe30abbdb8c6741f62017b23a2755913193c63fc7d3786128e38"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/examples/worked-example.md",
+      "bytes": 272,
+      "sha256": "68b41d24201c38cc779d0d6dc4341021f9daf20ba4edc9c5752ce2f109631a7e"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/knowledge/gasket-design.md",
+      "bytes": 568,
+      "sha256": "696c77a67436c5f36472057b7810802f515b3ca7adf316a6c723fabf355cabee"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/knowledge/scope.md",
+      "bytes": 565,
+      "sha256": "b18d72b8736f25bac3e367109464a0bfcc5ca13b62672588dcb05126611fb046"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/tests/smoke.md",
+      "bytes": 514,
+      "sha256": "a60fa9dc8c6e29dde506beabd6d3922e5b210a7af1a41b6e9b17c1c5bd873413"
+    },
+    {
+      "path": "skills/enclosure-gasket-review/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/enclosure-thermal-review/SKILL.md",
+      "bytes": 2029,
+      "sha256": "5eedb5958a7a68d168e42faed302e6134df3272cc81de78b125401c9a93ba864"
+    },
+    {
+      "path": "skills/enclosure-thermal-review/examples/example.md",
+      "bytes": 287,
+      "sha256": "6e446f8d9a9ce9507b3cfb6520348057d429e11d4b3dd6f8d59242b8f08e0910"
+    },
+    {
+      "path": "skills/enclosure-thermal-review/knowledge/scope.md",
+      "bytes": 144,
+      "sha256": "d13b06a492ea189f0c9dc57d7581d5025a70c1ff816cf13f24a5314ea4fce478"
+    },
+    {
+      "path": "skills/enclosure-thermal-review/tests/smoke.md",
+      "bytes": 262,
+      "sha256": "fa2d02c7a5fb6eeb296cbb539cf5474b504f39f46408546e68814cdc413e2f58"
+    },
+    {
+      "path": "skills/enclosure-thermal-review/workflows/default-workflow.md",
+      "bytes": 444,
+      "sha256": "025cc27a67f59b17f608055b576edee83882772f8c90610e701c1798cc95d58c"
+    },
+    {
+      "path": "skills/engineering-source-verification/SKILL.md",
+      "bytes": 2072,
+      "sha256": "3829919ddc6bb2fdc6bf3d63ca9957591ddf246d07ada209cc5522a9e5d51cb0"
+    },
+    {
+      "path": "skills/engineering-source-verification/examples/example.md",
+      "bytes": 299,
+      "sha256": "6b0b4cce95af00f55e5496d2b9686783007ccf8e99a18a2a1c4126bd59a1c727"
+    },
+    {
+      "path": "skills/engineering-source-verification/knowledge/scope.md",
+      "bytes": 156,
+      "sha256": "af69103f39d0d46bde7e4278676863044cbce3c65d56d2a9c8a9ddd9878241ca"
+    },
+    {
+      "path": "skills/engineering-source-verification/tests/smoke.md",
+      "bytes": 274,
+      "sha256": "c322e0a583db132b755af8c12a4ed56359b4c85d596d5dc97bc06c1dfc06bacf"
+    },
+    {
+      "path": "skills/engineering-source-verification/workflows/default-workflow.md",
+      "bytes": 479,
+      "sha256": "a42fbacb10de4db1dc25a57e536e3ec99c01459b8b7dcef5cd9ddeb6b20d9e39"
+    },
+    {
+      "path": "skills/engineering-task-intake/SKILL.md",
+      "bytes": 3519,
+      "sha256": "76592a62b9803c458348fd99d4c96d9874dff8a96edebc5b2a0c2bbe49129398"
+    },
+    {
+      "path": "skills/engineering-task-intake/examples/example.md",
+      "bytes": 955,
+      "sha256": "9e0798f0f1060e04d5786dc8bf9e82c543dc0a1847fabc0210c1a39b88c2480a"
+    },
+    {
+      "path": "skills/engineering-task-intake/knowledge/question-bank.md",
+      "bytes": 1289,
+      "sha256": "2f43e82da1e7af2db5c3dcdcf2369339a677db3e18c21b5bd18cf8ebb06e05d8"
+    },
+    {
+      "path": "skills/engineering-task-intake/knowledge/scope.md",
+      "bytes": 442,
+      "sha256": "f05cc6884ac3854183dff4af980bdec8b9f1fdb145a43ab834a8bad4cdcb8d97"
+    },
+    {
+      "path": "skills/engineering-task-intake/tests/smoke.md",
+      "bytes": 917,
+      "sha256": "c77479f973a1fb083ed2f2656ef006b57a00c3b53c2f78a78714d22f8dd0538e"
+    },
+    {
+      "path": "skills/engineering-task-intake/workflows/default-workflow.md",
+      "bytes": 817,
+      "sha256": "d48dc796fd6ba855fae31b54f36bf806b0aab174d5631f78c8783e87ae6381df"
+    },
+    {
+      "path": "skills/engineering-visualization/SKILL.md",
+      "bytes": 1198,
+      "sha256": "554660cc3504b19a9c2ab7af14a82ba66e4be8170c4ab3c66af9f01abe198f7f"
+    },
+    {
+      "path": "skills/engineering-visualization/examples/example.md",
+      "bytes": 650,
+      "sha256": "5a381e2c65c084d00272c63b7028ea2fc92e3d103c366959235c92fe15ada0dc"
+    },
+    {
+      "path": "skills/engineering-visualization/knowledge/invariants.md",
+      "bytes": 424,
+      "sha256": "d785054d6bb1cef4af08ce1d45389b46672f7fa39d7a3a20e25b4b601b91863e"
+    },
+    {
+      "path": "skills/engineering-visualization/tests/smoke.md",
+      "bytes": 288,
+      "sha256": "de7fa54e359015167702ca20bd24d74f164a4685a6372c69a0cb42cc6dcc8cb7"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/SKILL.md",
+      "bytes": 3732,
+      "sha256": "6e68adc799a758fe56294f4fee8b8d45d87a27dd8a7604a4c8160101080485fd"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/examples/example.md",
+      "bytes": 871,
+      "sha256": "19f2ca4937616dcac21000920a62667fcfcc27da89373f2b3196bd73949c29b4"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/knowledge/flat-length-handcheck.md",
+      "bytes": 1127,
+      "sha256": "4a0f233a0764e753c1fbb1b60fa04e1991f8807852f6610f8f9ea8fa29d01d48"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/knowledge/scope.md",
+      "bytes": 566,
+      "sha256": "684825b541e359fbaf46cb157741c247199cc057e17a403281bb9b1a889548d4"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/tests/smoke.md",
+      "bytes": 837,
+      "sha256": "25ee6746d1a7dd2d943866624fc8b7e42473e3d7a690e517f38e976cc203ba1b"
+    },
+    {
+      "path": "skills/flat-pattern-workflow/workflows/default-workflow.md",
+      "bytes": 832,
+      "sha256": "16c1743eddb602162c8a129437414cec7bf792831936aa72f260575db530cd33"
+    },
+    {
+      "path": "skills/gdt-selection/SKILL.md",
+      "bytes": 3927,
+      "sha256": "b14f373d5f3773b8a5f31620045ed0db5fd359d2e517fdcbe6d594f097330f9f"
+    },
+    {
+      "path": "skills/gdt-selection/examples/example.md",
+      "bytes": 990,
+      "sha256": "228fb4b39f969d362a948498188ccc04dd167262960eca276df0b282b24c5f21"
+    },
+    {
+      "path": "skills/gdt-selection/examples/functional-example.md",
+      "bytes": 841,
+      "sha256": "752e0c0e080953f379dc6c85c85240e17bf2bc559753a7de34d5ede6aff6a5b1"
+    },
+    {
+      "path": "skills/gdt-selection/knowledge/function-to-characteristic.md",
+      "bytes": 867,
+      "sha256": "18b7808cc7adfe06fbb21ea766bf4c568039ac333bb1132b3d837a7120ee563c"
+    },
+    {
+      "path": "skills/gdt-selection/knowledge/functional-control-selection.md",
+      "bytes": 1113,
+      "sha256": "6bf2f9ea4a04a70fdeea2c73a06570e1e76288f7c2ecdb23ae2677eaa1bf18d4"
+    },
+    {
+      "path": "skills/gdt-selection/knowledge/scope.md",
+      "bytes": 535,
+      "sha256": "84a88a5231a30861ff3d2e028904055e2356fd8ec3d314e5af670ec68dee2321"
+    },
+    {
+      "path": "skills/gdt-selection/tests/functional-test.md",
+      "bytes": 411,
+      "sha256": "f4e0a26d32309289d6fec969e38e20e746afaccbde06d3ad6224091e60a0a2a6"
+    },
+    {
+      "path": "skills/gdt-selection/tests/smoke.md",
+      "bytes": 877,
+      "sha256": "53a82fcb6bd0f4a97e6de2ba1a3a3819c572f645e2dee92fed8c8332b5a0b413"
+    },
+    {
+      "path": "skills/gdt-selection/workflows/default-workflow.md",
+      "bytes": 944,
+      "sha256": "1f9b197e386a1650481aa06183a8cac8705e0b0ee0ddbd7b2eec65a78ea108d8"
+    },
+    {
+      "path": "skills/image-dimension-estimation/SKILL.md",
+      "bytes": 3707,
+      "sha256": "51906040357098fd49628a4aac8e3ef64a18a5c09e9e10fdb5b624589b8041dc"
+    },
+    {
+      "path": "skills/image-dimension-estimation/examples/example.md",
+      "bytes": 781,
+      "sha256": "983c309f321fbca5b6475ce45e973387fa699685c269c7e646c2f96bcabc0ecb"
+    },
+    {
+      "path": "skills/image-dimension-estimation/knowledge/scale-and-error.md",
+      "bytes": 595,
+      "sha256": "86bc2835559a5c4f5d22894074327577be178b19460a7530abd025c3a0db3f91"
+    },
+    {
+      "path": "skills/image-dimension-estimation/knowledge/scope.md",
+      "bytes": 484,
+      "sha256": "aa66bed9bfb3a83dee068b5937bb54da062c6891ebc77fdf054086168e20335a"
+    },
+    {
+      "path": "skills/image-dimension-estimation/tests/smoke.md",
+      "bytes": 898,
+      "sha256": "6868b8961e181adac541576cf239365f140b7d4447dc844fc27c42dfdbdea358"
+    },
+    {
+      "path": "skills/image-dimension-estimation/workflows/default-workflow.md",
+      "bytes": 869,
+      "sha256": "991a79a3ed64b75ebdb9b50342e25d96d13a1fc63d9ce741facbba1469f7caac"
+    },
+    {
+      "path": "skills/image-editing/SKILL.md",
+      "bytes": 1227,
+      "sha256": "7dfee55863f4a1135fa07b3461a78eb3e2f1382b7ca9c8cf19506f1c7f2905f7"
+    },
+    {
+      "path": "skills/image-editing/examples/example.md",
+      "bytes": 507,
+      "sha256": "77697689c8a813f3d583c11e316066bd09a8be04edec80357122404c243c21c4"
+    },
+    {
+      "path": "skills/image-editing/tests/smoke.md",
+      "bytes": 231,
+      "sha256": "436d29b894a3df61698731b4c101c72ccb4904125a1ea3104e3975c562ee5054"
+    },
+    {
+      "path": "skills/image-prompt-engineering/SKILL.md",
+      "bytes": 1704,
+      "sha256": "e32ce440d52d3a272992b7d2396831ad9f45709d09d71ef1d44fe6bbf681eda6"
+    },
+    {
+      "path": "skills/image-prompt-engineering/examples/example.md",
+      "bytes": 537,
+      "sha256": "f4d44962230951082f1ba856ff0b760fb0d32e9ddeeed33e8f5e11ec8d6d35cf"
+    },
+    {
+      "path": "skills/image-prompt-engineering/tests/smoke.md",
+      "bytes": 263,
+      "sha256": "6bb1d0caa1d0e9f8050c26a4cbdbe280a17e2335adcb77417645332fc4f814b2"
+    },
+    {
+      "path": "skills/image-to-cad-reconstruction/SKILL.md",
+      "bytes": 2075,
+      "sha256": "fd2c51a98704fe5f0aaae8fe311c6cfa3d83db4cb1b00624c46c76d68127c786"
+    },
+    {
+      "path": "skills/image-to-cad-reconstruction/examples/example.md",
+      "bytes": 286,
+      "sha256": "8c3ab8e7a10f90963864c82d02c1cc914718491d2bae58180a4fdb411810107d"
+    },
+    {
+      "path": "skills/image-to-cad-reconstruction/knowledge/scope.md",
+      "bytes": 143,
+      "sha256": "8e1d18b2b2b17b74bdcdbb41b91047926b13d3b2a6de9edac2bcf7e81c8fa8d9"
+    },
+    {
+      "path": "skills/image-to-cad-reconstruction/tests/smoke.md",
+      "bytes": 261,
+      "sha256": "7738b0107c6a5f95670dee8913e3213bbf343cde66d4176bfd06a82b3b01438d"
+    },
+    {
+      "path": "skills/image-to-cad-reconstruction/workflows/default-workflow.md",
+      "bytes": 471,
+      "sha256": "f4daf7bcee085941ea7402e4fab312db2e52a86a74951ac579a100d65dcc5e70"
+    },
+    {
+      "path": "skills/ip-enclosure-design/SKILL.md",
+      "bytes": 3656,
+      "sha256": "8949dff588c8ae2b2344c3dd946241ab565947eb61bd715fc4a15996cbe9f629"
+    },
+    {
+      "path": "skills/ip-enclosure-design/examples/example.md",
+      "bytes": 1269,
+      "sha256": "22e0b9eeaa1ce4753bb1aefaa351931af5eff546a42548b3aeabff2516493719"
+    },
+    {
+      "path": "skills/ip-enclosure-design/examples/ip65-review.md",
+      "bytes": 712,
+      "sha256": "576e9b6bf531a7a032607f4b08d6e7b267a029a199102c175b08b8b1fa3d32ce"
+    },
+    {
+      "path": "skills/ip-enclosure-design/knowledge/enclosure-chain.md",
+      "bytes": 903,
+      "sha256": "fd81f0d1134e84f0c45d594a1e6e0c751224f2560188e49d8a807c3dfb576286"
+    },
+    {
+      "path": "skills/ip-enclosure-design/knowledge/opening-register.md",
+      "bytes": 601,
+      "sha256": "3a1ce89edaf6f42f2dd683a5900be86c6a126261264a048127bc5fb23b8f7aac"
+    },
+    {
+      "path": "skills/ip-enclosure-design/knowledge/scope.md",
+      "bytes": 553,
+      "sha256": "914f906c23df9bdb843231d62a95b6a8db6195f821552363da1d2f11ca5655c2"
+    },
+    {
+      "path": "skills/ip-enclosure-design/tests/ip-test.md",
+      "bytes": 308,
+      "sha256": "e5955a0ed675190dfc62537afd3473e503ed8f66aab3901ad210ff66ff9c3bee"
+    },
+    {
+      "path": "skills/ip-enclosure-design/tests/smoke.md",
+      "bytes": 887,
+      "sha256": "787f3c45bea0dfb63914787cbacee85a7195c003a7d61ff7afa6b9d4fd4627da"
+    },
+    {
+      "path": "skills/ip-enclosure-design/workflows/default-workflow.md",
+      "bytes": 756,
+      "sha256": "af0658a819927f00e50c8a2631e4a28d9e3a627328d9b19703e858eba0756eb5"
+    },
+    {
+      "path": "skills/joint-hardware-review/SKILL.md",
+      "bytes": 1795,
+      "sha256": "a88e58d6363e6dd9f23c7fe65ca86d3aecc4e0159de1d596db7daafff456fda0"
+    },
+    {
+      "path": "skills/joint-hardware-review/examples/example.md",
+      "bytes": 249,
+      "sha256": "1fd1d0cb643d2039739b9e216130df26fd907a94e0a248eab571c1d3f53aeb8d"
+    },
+    {
+      "path": "skills/joint-hardware-review/knowledge/scope.md",
+      "bytes": 190,
+      "sha256": "ad9d5d5025a7e35472955bbcf564cff17aa0cb1f8a529875f33efad8520beb57"
+    },
+    {
+      "path": "skills/joint-hardware-review/tests/smoke-test.md",
+      "bytes": 223,
+      "sha256": "21a4ea2cf32e15941145b33828e0f028035ef8f7e7838b01d6b75e5f3e7be54b"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/SKILL.md",
+      "bytes": 1982,
+      "sha256": "a77e5168a891db3c3c09de5563ca70c6e56d0d93715d74a07d9091f46bafbdf3"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/examples/stud-marking.md",
+      "bytes": 338,
+      "sha256": "067f1950bb69723deb3bb991a41fcd54350c08f17a53238ea9ba18c245d1cb9c"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/knowledge/process-separation.md",
+      "bytes": 846,
+      "sha256": "0ebc8043e4cfb15e64d6d6c4145d3bd62371c299f6003e4c125d5787623b9dc2"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/tests/stud-marking-test.md",
+      "bytes": 211,
+      "sha256": "d9445664332bd814b3fbd364afdceeb745fcddc0552f491e382f04ca4bc924d4"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/tests/test-cases.md",
+      "bytes": 265,
+      "sha256": "0c2ce3cc44845bd163feaab9385e799714868465823355027fe627090ed77a59"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/workflows/marking-release.md",
+      "bytes": 499,
+      "sha256": "f25faceae2684f75fbbc282e2d939e62774232038924ed54f82f990f5d88023c"
+    },
+    {
+      "path": "skills/laser-dxf-marking-workflow/workflows/release-check.md",
+      "bytes": 489,
+      "sha256": "c37e0dd9e72265875acbffb1c54527710c57fbca0b0589495e73d5ddd58ed493"
+    },
+    {
+      "path": "skills/manufacturing-process-selection/SKILL.md",
+      "bytes": 2125,
+      "sha256": "8e9abf2ce0ea9537eccb5592ade74f695270bd32b201817826a7eb11a915b2aa"
+    },
+    {
+      "path": "skills/manufacturing-process-selection/examples/example.md",
+      "bytes": 290,
+      "sha256": "914d43dc8e19cab685f11f4ef72872d4ea45dc7914b106dc82b97c46cdad6044"
+    },
+    {
+      "path": "skills/manufacturing-process-selection/knowledge/scope.md",
+      "bytes": 147,
+      "sha256": "9837d741bb802b02274811d166781a2243741d26ab90bb002e6db4d2c7ea961c"
+    },
+    {
+      "path": "skills/manufacturing-process-selection/tests/smoke.md",
+      "bytes": 265,
+      "sha256": "981091a49f57d726aad023b09e8b6d0249dea79719c5cbe1c18797b30477eb3e"
+    },
+    {
+      "path": "skills/manufacturing-process-selection/workflows/default-workflow.md",
+      "bytes": 456,
+      "sha256": "544e462e772061cc14f6206da45013c0655ffbb028ea63836c5222b137f2a8ec"
+    },
+    {
+      "path": "skills/market-intelligence/SKILL.md",
+      "bytes": 6183,
+      "sha256": "b42ca69a3b603fe3254839a86ea86fa254eb2ab04ac8ee314bfa87a638b5b09f"
+    },
+    {
+      "path": "skills/market-intelligence/examples/example.md",
+      "bytes": 817,
+      "sha256": "b8716d52ca54276c4949ab0ea4c19c1f44bf51f6ab6da5f31e404f6a74a9cfb0"
+    },
+    {
+      "path": "skills/market-intelligence/knowledge/company-dossier-schema.md",
+      "bytes": 573,
+      "sha256": "ac40ecff2d60e7b6a16e31f059441b1ca7d75ebe77d96c4c8fd901a48d5f758b"
+    },
+    {
+      "path": "skills/market-intelligence/knowledge/customer-signal-library.md",
+      "bytes": 860,
+      "sha256": "e193dbde19883ca7a3c7482602e6bc53938d426f656335c40fde465c2ed7fad3"
+    },
+    {
+      "path": "skills/market-intelligence/knowledge/evidence-and-source-hierarchy.md",
+      "bytes": 745,
+      "sha256": "f5520968a40b5418e689320415ac1b8dda8acd6aa6545c6b8573d68a07385524"
+    },
+    {
+      "path": "skills/market-intelligence/knowledge/relationship-types.md",
+      "bytes": 348,
+      "sha256": "bb6dcaeb3927a7bf00f105b1d755c9f0fcf123d8e306bf6cba7a3a7229da74f8"
+    },
+    {
+      "path": "skills/market-intelligence/tests/smoke.md",
+      "bytes": 527,
+      "sha256": "0ca7bfb51df2285f04ffddf5317788e150e64f2f5666180f10e3771a070176aa"
+    },
+    {
+      "path": "skills/market-intelligence/workflows/company-market-map.md",
+      "bytes": 430,
+      "sha256": "a6d631597c29d400a89f7701d0467f0abfc23ada20d3fb57eec958e692e9d57d"
+    },
+    {
+      "path": "skills/market-intelligence/workflows/competitor-landscape.md",
+      "bytes": 378,
+      "sha256": "6fc5f4ce5c683af1d363845f373df6148823244c56e34ef38f6fb592e2161062"
+    },
+    {
+      "path": "skills/market-intelligence/workflows/potential-customer-discovery.md",
+      "bytes": 597,
+      "sha256": "cb1a562d0a1d26106a206acebfa2d1c36cceb3be6eff5e5398dc8ce951519cc4"
+    },
+    {
+      "path": "skills/market-intelligence/workflows/project-and-contract-research.md",
+      "bytes": 425,
+      "sha256": "f335d0cd4994b9ea874c05abd6cc62ea99c4f3ff8d1d5cb2be266fcb91981f79"
+    },
+    {
+      "path": "skills/material-property-research/SKILL.md",
+      "bytes": 2058,
+      "sha256": "fecde70c3e7019f8286ce2adb8e1501e3866b63bdf5d01c3c2a4da46b19ebf0b"
+    },
+    {
+      "path": "skills/material-property-research/examples/al-5754.md",
+      "bytes": 427,
+      "sha256": "f59cc8f2ce4d445269b3d6cf3f733b2b42c8a0d727e8b7ff7379ca8d61e1ed1b"
+    },
+    {
+      "path": "skills/material-property-research/examples/example.md",
+      "bytes": 330,
+      "sha256": "7e245f52b1aa2fbb4b8ac88e1922bb72ee66dbaf8bfd1e66566e29b8c8667c40"
+    },
+    {
+      "path": "skills/material-property-research/examples/worked-example.md",
+      "bytes": 682,
+      "sha256": "5904dcf73fc44295830c49527a603d81e19de3d7073e9c327f26edec0d39e3eb"
+    },
+    {
+      "path": "skills/material-property-research/knowledge/scope.md",
+      "bytes": 502,
+      "sha256": "fc4e00bd64cbec932b04c7712edeb2ebf38d28d76266c203c1fb6607397b8af4"
+    },
+    {
+      "path": "skills/material-property-research/knowledge/source-hierarchy.md",
+      "bytes": 573,
+      "sha256": "7a3e403955887bb26450e7def94ad6ff86e9022892d76b07b1eb7e15451517ae"
+    },
+    {
+      "path": "skills/material-property-research/tests/smoke.md",
+      "bytes": 476,
+      "sha256": "fce4e208d4a0b9bd382ec774bfd6602351092eb7445fc6292ae177a0f7038e1e"
+    },
+    {
+      "path": "skills/material-property-research/tests/source-test.md",
+      "bytes": 228,
+      "sha256": "b788cb18bdb124c8b76a4a517ee4e892e27e9dd9ba7a8a7a2039d876b0257a12"
+    },
+    {
+      "path": "skills/material-property-research/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/material-property-research/workflows/weight-critical-research.md",
+      "bytes": 464,
+      "sha256": "6454fe120fe856db7baeee87a158bea9be079326eeeda38af848bbd88d532242"
+    },
+    {
+      "path": "skills/metrology-inspection-planning/SKILL.md",
+      "bytes": 1763,
+      "sha256": "540c3fde6c12f20005bad59e6bffe1f942fd21c3478b974b6dd75c52e596741b"
+    },
+    {
+      "path": "skills/metrology-inspection-planning/examples/example.md",
+      "bytes": 254,
+      "sha256": "4b17d2a65170d05f80dd6ba50d8478301e48e6f982066d4bb4992560eba49476"
+    },
+    {
+      "path": "skills/metrology-inspection-planning/knowledge/scope.md",
+      "bytes": 169,
+      "sha256": "01f21a278520621241c7a7cc0cbb5512da3a41d38e15b06c0054fb703418bab1"
+    },
+    {
+      "path": "skills/metrology-inspection-planning/tests/smoke-test.md",
+      "bytes": 231,
+      "sha256": "62e52333b1001c0717495abddc8052732b1c485cb30a701a8b245e9a85524906"
+    },
+    {
+      "path": "skills/operating-system/SKILL.md",
+      "bytes": 876,
+      "sha256": "459e71eb73856f10e602bfbb51002e0b734b472338ff6a070346d05c643c9967"
+    },
+    {
+      "path": "skills/operating-system/examples/example.md",
+      "bytes": 430,
+      "sha256": "391815784a98fd5b758f9eb74ee4ef223cb1d568afe3d1d178c119702e2a4708"
+    },
+    {
+      "path": "skills/operating-system/tests/smoke.md",
+      "bytes": 202,
+      "sha256": "7f7952307f48e0923f206262624f080e9fbe4d0d232411d987cbbb9e7f97b220"
+    },
+    {
+      "path": "skills/quotation-generator/SKILL.md",
+      "bytes": 3113,
+      "sha256": "508226c0218110128b58403b22fab04b2584ede65889e6e4fd2c5a5e6516611f"
+    },
+    {
+      "path": "skills/quotation-generator/examples/example.md",
+      "bytes": 335,
+      "sha256": "c0b337dfa0d3b9d6651a1be856a58fa97e1ca36d41305d2f5f577a4e8ce7a2f7"
+    },
+    {
+      "path": "skills/quotation-generator/examples/worked-example.md",
+      "bytes": 293,
+      "sha256": "4c7834e922965ea550cfeee69de5496c023c17ef54f10366e6f17a9160a1cdc0"
+    },
+    {
+      "path": "skills/quotation-generator/knowledge/quotation-structure.md",
+      "bytes": 770,
+      "sha256": "da6e6afab67a6614042cad57c7b3357d3b9d8dc0a7bcfe9049537276b3ae4dfb"
+    },
+    {
+      "path": "skills/quotation-generator/knowledge/scope.md",
+      "bytes": 476,
+      "sha256": "779ac284275232013fe489928cfff00d7f78f913a59bb41d86ea8497c59ea311"
+    },
+    {
+      "path": "skills/quotation-generator/tests/smoke.md",
+      "bytes": 403,
+      "sha256": "6ef0f71e8ec6b7915186c13495cfb27a7746d7c8680062618df873d4a4d93a95"
+    },
+    {
+      "path": "skills/quotation-generator/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/reference-image-analysis/SKILL.md",
+      "bytes": 1119,
+      "sha256": "ff84fcd7d93732208a4b42dbb068ba15380757ea8fe5c9f2306e3a775e3bcf7c"
+    },
+    {
+      "path": "skills/reference-image-analysis/examples/example.md",
+      "bytes": 417,
+      "sha256": "9d43c55227390497acf74e2a00b0b7663d8be5e1098a4e9cbf97eeb150ab3526"
+    },
+    {
+      "path": "skills/reference-image-analysis/tests/smoke.md",
+      "bytes": 255,
+      "sha256": "750e48a383bd43d80847424a066a6fe5d5076e9bb0b1c1d4f608709075a9ff1c"
+    },
+    {
+      "path": "skills/requirements-and-risk-review/SKILL.md",
+      "bytes": 1900,
+      "sha256": "95a0a624c58fbadf7fe64df4b045b46cdac0281d84270e7d0d1dce1eeae5de53"
+    },
+    {
+      "path": "skills/requirements-and-risk-review/examples/example.md",
+      "bytes": 299,
+      "sha256": "6b0b4cce95af00f55e5496d2b9686783007ccf8e99a18a2a1c4126bd59a1c727"
+    },
+    {
+      "path": "skills/requirements-and-risk-review/knowledge/scope.md",
+      "bytes": 156,
+      "sha256": "af69103f39d0d46bde7e4278676863044cbce3c65d56d2a9c8a9ddd9878241ca"
+    },
+    {
+      "path": "skills/requirements-and-risk-review/tests/smoke.md",
+      "bytes": 274,
+      "sha256": "c322e0a583db132b755af8c12a4ed56359b4c85d596d5dc97bc06c1dfc06bacf"
+    },
+    {
+      "path": "skills/requirements-and-risk-review/workflows/default-workflow.md",
+      "bytes": 414,
+      "sha256": "f6c5a472c11746d506eb34109831db996b958a7050236dee8f18b6585f54cdbf"
+    },
+    {
+      "path": "skills/sealing-detail-review/SKILL.md",
+      "bytes": 1716,
+      "sha256": "ed540aa8caa789b9655c0b781e9d0a298d2dd1b47eb685360b89d4ecffb55561"
+    },
+    {
+      "path": "skills/sealing-detail-review/examples/example.md",
+      "bytes": 211,
+      "sha256": "03dfc51860b530df4a4c2d0502a3d5bf0785f5f5619245082a7dca4029d5e969"
+    },
+    {
+      "path": "skills/sealing-detail-review/knowledge/scope.md",
+      "bytes": 173,
+      "sha256": "ff1c77db6f7827525105610ae57aafa81804c3920544a638fc977ad7ac8148ae"
+    },
+    {
+      "path": "skills/sealing-detail-review/tests/smoke-test.md",
+      "bytes": 219,
+      "sha256": "d65de0b0ceb49687005071e620ce0512748c34a5e907524520bf5d28f55419dd"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/SKILL.md",
+      "bytes": 2202,
+      "sha256": "8acf586b83b8215d6ff568979c1d3e707c2a06b29a4556fd0879bdf6fa578bbb"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/examples/controlled-example.md",
+      "bytes": 375,
+      "sha256": "22d002a2586a7b40bfcf6ed6138572f54dc019ca8197dc348e71764735db21ff"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/examples/missing-k-factor.md",
+      "bytes": 260,
+      "sha256": "1a6fbdd80c5904c73f1206221c8ab5ac0d302af5981731180b42bfc72a61c656"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/knowledge/calculation-model.md",
+      "bytes": 1239,
+      "sha256": "6448c0a7fe79988d9f9fff7bbf405828e65299155170fce9dfb404e5d6f21132"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/knowledge/input-matrix.md",
+      "bytes": 627,
+      "sha256": "10f547d87a18f2f412fb5647414b684f61d8d8ef2b6ae25f8e61850e61f54160"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/tests/release-test.md",
+      "bytes": 182,
+      "sha256": "a871103cdadc7b77dbe57122b054e267ca4d633870babba260ddbc750798b327"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/tests/test-cases.md",
+      "bytes": 194,
+      "sha256": "41c3b65566b6e680bec3eca3086dd34d4955b1f15dcacd6568bf6ee2cadc897e"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/workflows/controlled-bend-release.md",
+      "bytes": 534,
+      "sha256": "4cc28a66123ea724c426f9fb9d81e2600d5233c98560be468a08e1d3c8a0049c"
+    },
+    {
+      "path": "skills/sheet-metal-bend-analysis/workflows/manufacturability-check.md",
+      "bytes": 616,
+      "sha256": "45aa805267ecdea06f28ad08520e488da366e3131bfc92b1c8ad64bfd870ff24"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/SKILL.md",
+      "bytes": 3721,
+      "sha256": "42bbb168136f61793703f3ed9ea800a0e97d0f9483ad130aa9e563ba59fdcacc"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/examples/example.md",
+      "bytes": 1004,
+      "sha256": "e849bf73e430ec4c8b4ec2263204138f9b07e66dbf3ffd2ef3602c925f894c5e"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/knowledge/dfm-heuristics.md",
+      "bytes": 1204,
+      "sha256": "3ea3d5a86cd2747edf60ec40cdde512e24bcba13b949f158f6ab621e3a30e444"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/knowledge/scope.md",
+      "bytes": 530,
+      "sha256": "5143e6a631687e37f4760b72ae61037560667aa330a96be8b959f7819d911ca5"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/tests/smoke.md",
+      "bytes": 845,
+      "sha256": "7a3bc61bbdeb4facf994e7f33e8fba597c26f43be70528e86f144e15426853f5"
+    },
+    {
+      "path": "skills/sheet-metal-manufacturability-check/workflows/default-workflow.md",
+      "bytes": 845,
+      "sha256": "71da6d75b8b47945c6c8d59e3dbeaafac22169b9e3859c1bc7bfc99d059056a0"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/SKILL.md",
+      "bytes": 3156,
+      "sha256": "9285d79d904fa0e040a27c52d92249eea60844f014951337636d325e180a5654"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/examples/example.md",
+      "bytes": 333,
+      "sha256": "f12aa0510e511c4bde2485b4a3a61939fb823ea15878f5878d61b6323d9e5ce4"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/examples/worked-example.md",
+      "bytes": 469,
+      "sha256": "08fb85f4be87ff37292f1cc019d25450956040f53c1d01a63d35a703a6a534d5"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/knowledge/release-record-template.md",
+      "bytes": 399,
+      "sha256": "d47b751061873de1fc8408a58b57a1e5846e5520ea588f5bbf236de0baf3b657"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/knowledge/scope.md",
+      "bytes": 500,
+      "sha256": "cb844765de28e02b819bb92145487a7cb88d296ad34919b8bd8ddef1533ddeb5"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/tests/smoke.md",
+      "bytes": 407,
+      "sha256": "3dddbee2cda81120fbaadc8aff556e8253ca9723a45988f244ec424fb620e054"
+    },
+    {
+      "path": "skills/sheet-metal-release-workflow/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/sheet-metal-terminology/SKILL.md",
+      "bytes": 2556,
+      "sha256": "b78acb113f0da292bba6624914d39e5c6595ad6d12b5f6ee91af726277b07c98"
+    },
+    {
+      "path": "skills/sheet-metal-terminology/examples/example.md",
+      "bytes": 605,
+      "sha256": "cc5593e0ce248936f5849a0e0a784d93322c83d4712a395563f59ee052e692f9"
+    },
+    {
+      "path": "skills/sheet-metal-terminology/knowledge/scope.md",
+      "bytes": 178,
+      "sha256": "291c8f7a53c751f3a4735859f916f0697c0380dc6f0c6a7a5397139488c80016"
+    },
+    {
+      "path": "skills/sheet-metal-terminology/tests/smoke.md",
+      "bytes": 361,
+      "sha256": "a743cf4f1f661890598f9f72fb600871134c5271f44ae7415f5d2a9975010756"
+    },
+    {
+      "path": "skills/sheet-metal-terminology/workflows/default-workflow.md",
+      "bytes": 689,
+      "sha256": "a9bd054c2ab7c5edede68fecb5498c0b95bb169e02dbb392b3b87afd3250305e"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/SKILL.md",
+      "bytes": 2397,
+      "sha256": "73078167f74171d0c6dcdc8c37eb62acd674c9167cbf679cefdd0ff933d62884"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/examples/example.md",
+      "bytes": 307,
+      "sha256": "a9b2654eef5eb64d951c484d5d1420faa6541c3d3febc0b0ae96dfaeff925e61"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/examples/four-corner-weld.md",
+      "bytes": 546,
+      "sha256": "8694b71914091c4a1d78682e016898297a32a49cbd72bf0a09b6dcde58a4e96f"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/examples/worked-example.md",
+      "bytes": 456,
+      "sha256": "07b4f80267a75fc006d33c700e998fb0aee216341abb307f463f9837b7d8f66a"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/knowledge/fastener-notation.md",
+      "bytes": 573,
+      "sha256": "a11bc1fb1c4660c51a038c173bdb8d5c8c2240cf7db9741008d8dddcfb5d3574"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/knowledge/join-selection.md",
+      "bytes": 802,
+      "sha256": "8d8d6fa861fcc63524241bf158fe0c8273d3d66ab68c54943b24dfe82b877b51"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/knowledge/scope.md",
+      "bytes": 515,
+      "sha256": "5259913fc43003992d488a776302b16ab32d576621e35e475f98a7980ac80070"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/knowledge/weld-notation.md",
+      "bytes": 989,
+      "sha256": "630781c740bcf5db0ebde04c863350dbed4be096108041350367ebcc472d1565"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/tests/join-test.md",
+      "bytes": 349,
+      "sha256": "58f8074980e8da6b3693de735eca88896a248bedfb705c9dee3d9493409a47c9"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/tests/smoke.md",
+      "bytes": 483,
+      "sha256": "52f819f03388b4a7f45cc76ba34626f20ea3c4a339b2b5c629f5b1f1a70ba7da"
+    },
+    {
+      "path": "skills/sheet-metal-weld-fastener-review/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/SKILL.md",
+      "bytes": 2302,
+      "sha256": "b04e0415438a9db49eefd1adb6138ad0cd4271a6affcd2cbff6fcbc4f2ab0279"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/examples/example.md",
+      "bytes": 326,
+      "sha256": "78cccaf0e8636d4c9cb8beb64bced7aecb96ff84a7d8dcdb1f3fa2aefb45bc3e"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/examples/worked-example.md",
+      "bytes": 551,
+      "sha256": "98a15160b6c0fe8be4fc0ea8e2bf2f9b348ab1299b89b4335e0c77a4685d1dd9"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/knowledge/dxf-release-checklist.md",
+      "bytes": 710,
+      "sha256": "cf60332a0e928db3487921894872490fdd290e42c73f79ae667142e9eea6c109"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/knowledge/scope.md",
+      "bytes": 448,
+      "sha256": "f2e986df024f0c6967bd7bf57fd65640b9f176cb5afe02ffe0a51abf4c7c89d1"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/tests/smoke.md",
+      "bytes": 424,
+      "sha256": "5fefc0ecb94b0f4ac78fd2b01d521ed6185a33247e5adeba032a60ad0e49d0bd"
+    },
+    {
+      "path": "skills/solidworks-dxf-release-check/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/SKILL.md",
+      "bytes": 1736,
+      "sha256": "fd856d703b5b22e13b8d1640253a62b9c5a1925ccfe8d90f9f0032e1f07aa3fb"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/examples/config-switch-restore.bas.md",
+      "bytes": 1689,
+      "sha256": "56a11573c9d01cdd02ccfd58fbf186b55efba7da4c8a37c11bdbc2b2c3738e50"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/examples/custom-property-macro.md",
+      "bytes": 626,
+      "sha256": "ca5e5902efa44d085ca2235fc80c7fb1bddcae7765e3548a89d84dcf286b8e9a"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/examples/custom-property-write.bas.md",
+      "bytes": 900,
+      "sha256": "37cabbf3df5a5fa5f9068274f23e861d06ae39ace51f5bf7b3283d9a0ce2da93"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/knowledge/api-safety.md",
+      "bytes": 830,
+      "sha256": "60b94fa7b1bf2707be3fccf415c45364633c4c4741329dc5c664d3a35f547bc5"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/knowledge/macro-structure.md",
+      "bytes": 1173,
+      "sha256": "4a27c95a7d7d5abd8fd7359a907554a46f9c93fcac190154cb9b9cc4fbaa11fa"
+    },
+    {
+      "path": "skills/solidworks-macro-generator/tests/macro-test.md",
+      "bytes": 344,
+      "sha256": "bf82409a2487d4bbe5d9285075290ae87b85de7b103747e3b9af9911a764d670"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/SKILL.md",
+      "bytes": 3992,
+      "sha256": "7a011211c817276dc5b6f1cd63cd7b99d4db5e46bafd6c73e4cb34d9213d5135"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/examples/example.md",
+      "bytes": 908,
+      "sha256": "f282f0ab7f0bb4d22c9dfa438a27f1b704c5dff57c59ff710338cda6060a5437"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/knowledge/feature-map.md",
+      "bytes": 1787,
+      "sha256": "38be2e544057e3b2870cabf08132aa6ca185121963481cceb11ca8c69ab89867"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/knowledge/scope.md",
+      "bytes": 525,
+      "sha256": "c05626e379fa5531cb908e3d31578b711a9fa85073630aff61f555aaf85dee42"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/tests/smoke.md",
+      "bytes": 895,
+      "sha256": "d5a900c749bfccd3050dbf86b9bff89adb35410bd379cfd31a48bf67fe94c1e3"
+    },
+    {
+      "path": "skills/solidworks-sheet-metal-workflow/workflows/default-workflow.md",
+      "bytes": 933,
+      "sha256": "2c6f3fac3273e6307de9c5245544a85630a6e49997bc28bec594cfce146def4d"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/SKILL.md",
+      "bytes": 1737,
+      "sha256": "1d5961b24023c3e105c850d7312e4d32926cf6cc323637691371c65671302570"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/examples/edge-flange.md",
+      "bytes": 345,
+      "sha256": "6c0de79fc369ca894a787cb59ef93e09fd639fc7e81209af45b0604a3c565db6"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/examples/title-block-property.md",
+      "bytes": 372,
+      "sha256": "b5e0727593516e06b109277555912cee30fe5d66c25e0f0cbf8a178a826943a3"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/knowledge/command-mapping.md",
+      "bytes": 541,
+      "sha256": "0b99c33990c80cc63aec4070ff4efa9a57aaf5f98addc0bf052a34395c5fdb04"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/knowledge/interaction-map.md",
+      "bytes": 646,
+      "sha256": "8fa0346ef3af030ebc7dc12eedf14d5903e908c63e457835ff54a2253d2d865e"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/tests/screenshot-test.md",
+      "bytes": 201,
+      "sha256": "f13da31f8468acf557c3adbda251a64e0325a246728702feef633bbb9b4fb742"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/tests/test-cases.md",
+      "bytes": 182,
+      "sha256": "0a01688f0a166ad5a4b99b121264df22cda816197bbe62e45d668243d804c92d"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/workflows/screenshot-guided.md",
+      "bytes": 332,
+      "sha256": "67c1ec61828b80f17164eb9113d0388b81705645f4bfe5e23db403f11d2b849e"
+    },
+    {
+      "path": "skills/solidworks-turkish-ui/workflows/ui-troubleshooting.md",
+      "bytes": 495,
+      "sha256": "d871c166b1065cf5a8385a857eef2b84f9b9c56b8704d1755994768be3365d37"
+    },
+    {
+      "path": "skills/structural-stiffness-review/SKILL.md",
+      "bytes": 1900,
+      "sha256": "b76adb8e851f7803ab23eaa3878897ecb11c5b615ff29e6ecb979e36d12db74b"
+    },
+    {
+      "path": "skills/structural-stiffness-review/examples/example.md",
+      "bytes": 309,
+      "sha256": "179f5dced9b039698fa986dd575a8c300d74ceef999f1403ecdb98758dd1d445"
+    },
+    {
+      "path": "skills/structural-stiffness-review/knowledge/scope.md",
+      "bytes": 210,
+      "sha256": "b609362fb6b86cddd2b94cfc1b2078e5271e1e99deb9c0a1f4cf832709e6e0f0"
+    },
+    {
+      "path": "skills/structural-stiffness-review/tests/smoke-test.md",
+      "bytes": 225,
+      "sha256": "7d0db3233c5a9383e255b22e7aedc71e701eac450d416da894e4810421bf26ab"
+    },
+    {
+      "path": "skills/supplier-handoff-review/SKILL.md",
+      "bytes": 1789,
+      "sha256": "48fd0e76a0fdca696cd3979b4dfd036429242f8b5bec0b64f34373defa632e94"
+    },
+    {
+      "path": "skills/supplier-handoff-review/examples/example.md",
+      "bytes": 227,
+      "sha256": "82c81afc269903e2f3424685f6900ca4b3d439b22aa9d2fe9438cbc069727b49"
+    },
+    {
+      "path": "skills/supplier-handoff-review/knowledge/scope.md",
+      "bytes": 191,
+      "sha256": "fdaea09b3e18cd0d9034afcb0bdf2e102b5b300e44006d98b4a5326c0e5cd08c"
+    },
+    {
+      "path": "skills/supplier-handoff-review/tests/smoke-test.md",
+      "bytes": 236,
+      "sha256": "76f9028e0f21ed23c25be2a2797cb4acb9ab9fea29237cf31fb1f0caf7045e99"
+    },
+    {
+      "path": "skills/technical-document-generator/SKILL.md",
+      "bytes": 3644,
+      "sha256": "2e6fdff91cad8ce1c7e56850751308eff514f62f569424411f15c41da0b8048a"
+    },
+    {
+      "path": "skills/technical-document-generator/examples/example.md",
+      "bytes": 798,
+      "sha256": "960df95a599f5d322e6917dce14af6ce818f2f163236fa3436e7bcf5358dc8aa"
+    },
+    {
+      "path": "skills/technical-document-generator/knowledge/document-structures.md",
+      "bytes": 608,
+      "sha256": "89830630ee4ebb104f457e5c1c5aade6e546f3fb74fb7f0cafddfaddf8a29ef1"
+    },
+    {
+      "path": "skills/technical-document-generator/knowledge/scope.md",
+      "bytes": 473,
+      "sha256": "33ee1aec7b1b2e1690ccedd6520ee56a77fbeae020b8705f88239b16afd8b99b"
+    },
+    {
+      "path": "skills/technical-document-generator/tests/smoke.md",
+      "bytes": 855,
+      "sha256": "f316755e0948598a5a691c9bae841d7d61c44e91167128d25bf713ad35727e7d"
+    },
+    {
+      "path": "skills/technical-document-generator/workflows/default-workflow.md",
+      "bytes": 759,
+      "sha256": "2868796d9839400270a223aafc61b0d934d4cd8383586335a5e709a7721965cc"
+    },
+    {
+      "path": "skills/technical-drawing-review/SKILL.md",
+      "bytes": 1926,
+      "sha256": "93d03a73cea0623bccadade2b762d6c11fd9748259a500880b2e79680baabd82"
+    },
+    {
+      "path": "skills/technical-drawing-review/examples/release-findings.md",
+      "bytes": 341,
+      "sha256": "61973c64e2d56d0052d1e50bc0e0c6d3c0f7302ae392624e329bd6c4f2b24355"
+    },
+    {
+      "path": "skills/technical-drawing-review/knowledge/release-order.md",
+      "bytes": 702,
+      "sha256": "d8ec59f10aaba3b584d0803b5f7a2d38cc63e3caca200968d2168e272782fb6b"
+    },
+    {
+      "path": "skills/technical-drawing-review/tests/release-test.md",
+      "bytes": 183,
+      "sha256": "a95ceb170fb645003254811040d4447ced1bf4753c5d349ffde756654ce5ebdf"
+    },
+    {
+      "path": "skills/technical-drawing-review/workflows/sheet-metal-release-review.md",
+      "bytes": 470,
+      "sha256": "fbea8701c709bb27712a55b6fe97a511270e7f32f288f9d200e4fd94c288575f"
+    },
+    {
+      "path": "skills/title-block-design/SKILL.md",
+      "bytes": 2500,
+      "sha256": "b6a3249d45090027d4d18ad7d3808ed3875da0a100af5d8c9d088446bd4206bd"
+    },
+    {
+      "path": "skills/title-block-design/examples/example.md",
+      "bytes": 316,
+      "sha256": "cee95b44c7c34dbececbe23bd24ee75d1535300d905ab8958b00e56d8d206097"
+    },
+    {
+      "path": "skills/title-block-design/examples/sheet-metal-antet.md",
+      "bytes": 595,
+      "sha256": "4075093e72964e84d143d219e269307db92bb1ba201b08853fba300948292b90"
+    },
+    {
+      "path": "skills/title-block-design/examples/worked-example.md",
+      "bytes": 621,
+      "sha256": "d9eebc96418322e1aab505876a0fc8d19bf087c05434998896aae4cab93c3a12"
+    },
+    {
+      "path": "skills/title-block-design/knowledge/release-fields.md",
+      "bytes": 833,
+      "sha256": "91dbc159e292bfc41b083623d7b259f837f7f6fff479d350e09078e61f590656"
+    },
+    {
+      "path": "skills/title-block-design/knowledge/scope.md",
+      "bytes": 477,
+      "sha256": "debfb5f16c6dd62a7ce46841aaf2ab4e1f2cc00027bac691f505e0cca6786d38"
+    },
+    {
+      "path": "skills/title-block-design/tests/smoke.md",
+      "bytes": 472,
+      "sha256": "dceea1771af97b7445d3d02f6d49b9e3eef9bdbba2d71f9fd455f4ae152027c1"
+    },
+    {
+      "path": "skills/title-block-design/tests/title-block-test.md",
+      "bytes": 416,
+      "sha256": "39c60f565be533d9ae999dd1ce64bbe225d16bb2ba07258591eda15ad41d2c46"
+    },
+    {
+      "path": "skills/title-block-design/workflows/default-workflow.md",
+      "bytes": 87,
+      "sha256": "e7dacdb3a0f0da5ee23412f59b2d79f9a5c996318f74eb5c89ce7c83ca5e3805"
+    },
+    {
+      "path": "skills/tolerance-stack-analysis/SKILL.md",
+      "bytes": 1959,
+      "sha256": "d5973ea8c877717783be523e9bd4aa78176ff179a982538af3ec173f0d1b5243"
+    },
+    {
+      "path": "skills/tolerance-stack-analysis/examples/example.md",
+      "bytes": 288,
+      "sha256": "1ede84cf4b6a6758e7bd0d495cfe60c32478e7362fbadcbfb925db530970f47f"
+    },
+    {
+      "path": "skills/tolerance-stack-analysis/knowledge/scope.md",
+      "bytes": 145,
+      "sha256": "0287ce952d1e41d4ff3d8f62c592195a6df308cea076d58afa3005eca16f0aaf"
+    },
+    {
+      "path": "skills/tolerance-stack-analysis/tests/smoke.md",
+      "bytes": 263,
+      "sha256": "b6598899506cc925371f00cac431f32082cfef1dcdc85550a4de89300c9d8a84"
+    },
+    {
+      "path": "skills/tolerance-stack-analysis/workflows/default-workflow.md",
+      "bytes": 425,
+      "sha256": "3113b5d19382d0c5fdc31ba8dcbb1a06a8f6c08a5bab851db6dd7717546804db"
+    },
+    {
+      "path": "skills/visual-generation/SKILL.md",
+      "bytes": 1121,
+      "sha256": "425cf43b0d14f367488d51af70dfe6bfa05083e0e8606f0d55a4142201609804"
+    },
+    {
+      "path": "skills/visual-generation/examples/example.md",
+      "bytes": 431,
+      "sha256": "620fb90fc8d3813eef654d00a51591dc051d68ce1a1734e39c9072c9e2d83bc8"
+    },
+    {
+      "path": "skills/visual-generation/tests/smoke.md",
+      "bytes": 219,
+      "sha256": "7702373e44a064f758276f2eafb24743397936a2b2f6f5cbddd0b2f5916ca404"
+    },
+    {
+      "path": "skills/weight-analysis/SKILL.md",
+      "bytes": 3454,
+      "sha256": "51cc3eb47f6bc6becbd26a9560db4e9778851839da3b6514237ff771e64bdc9f"
+    },
+    {
+      "path": "skills/weight-analysis/examples/example.md",
+      "bytes": 671,
+      "sha256": "df541a8e2d7db285e13a4f1ae30960a9e5cdd7633f27c9bb3c6f0c1dec1f5b87"
+    },
+    {
+      "path": "skills/weight-analysis/knowledge/scope.md",
+      "bytes": 447,
+      "sha256": "4a94da194da9409f919a2eae65116564b6b2ca12c82a5125243c218c7216958d"
+    },
+    {
+      "path": "skills/weight-analysis/knowledge/weight-method.md",
+      "bytes": 1038,
+      "sha256": "5ff8fae40b7a6057b5a0f495c1d96caaf80ac964e2bde4eec9e155a215938a04"
+    },
+    {
+      "path": "skills/weight-analysis/tests/smoke.md",
+      "bytes": 798,
+      "sha256": "49460c4fc90f1dc88b5f7994142fc984307cb7ad8f3a86117416dbb37b3f85f7"
+    },
+    {
+      "path": "skills/weight-analysis/workflows/default-workflow.md",
+      "bytes": 747,
+      "sha256": "5b957f02e07a4effd9ed1e47ff15e5fca46cb1589169ddcf47b4ba09a92c2cc3"
+    },
+    {
+      "path": "sources/README.md",
+      "bytes": 1718,
+      "sha256": "b0bf59d292057bad7f145cc1f48fe5e84a85f38c5c7d3c8e3abe3366707e5866"
+    },
+    {
+      "path": "sources/registry.json",
+      "bytes": 6844,
+      "sha256": "c8e18c88c365472bd421ce0cca6b5fe8e63de0b868ffceeb471a37c174f26514"
+    },
+    {
+      "path": "sources/registry.md",
+      "bytes": 3156,
+      "sha256": "bfa52891a42659cd6c3aad8309eb5db50b657385a8a1eb28a6f47e7bd8774e8a"
+    },
+    {
+      "path": "templates/assembly-instruction.md",
+      "bytes": 371,
+      "sha256": "b8808619a33471292ca75b8e2b819ab86835946d853afdcbc167a30ff41dae5c"
+    },
+    {
+      "path": "templates/assumption-register.csv",
+      "bytes": 78,
+      "sha256": "931e169b6dfe40bae16fa28e829e1869f9d1414403e004adc53b9fa58191bbef"
+    },
+    {
+      "path": "templates/design-brief.md",
+      "bytes": 686,
+      "sha256": "901e40eced9ab3cf42f7cb8cf1f9e38297e6fa096830f601d880cd9fbdd587a6"
+    },
+    {
+      "path": "templates/design-review-report.md",
+      "bytes": 757,
+      "sha256": "bd62330d5950d8639bef91d6bd55d7ae5d46117526df707cdef6eff181795fcc"
+    },
+    {
+      "path": "templates/enclosure-requirements.md",
+      "bytes": 554,
+      "sha256": "c3217312965062843317e0b644ff573ab7519f6156ebaa62c979902f047a5efa"
+    },
+    {
+      "path": "templates/eval-case.jsonl",
+      "bytes": 217,
+      "sha256": "46715193b1db40ce02c57493f32cdcf18c3a25b27400718bfb1d3780f3c7f0d8"
+    },
+    {
+      "path": "templates/fabricator-capability-profile.md",
+      "bytes": 987,
+      "sha256": "bfb4a5ee9d279ba9395f1798c9598ecd6d27c66ce3d17969dbf9314f57458deb"
+    },
+    {
+      "path": "templates/knowledge-file.md",
+      "bytes": 553,
+      "sha256": "5f62e54b00a16a18c50ab07c0567a517ce0f74e9fa3c95d4bc3b0cce71f48ff6"
+    },
+    {
+      "path": "templates/release-checklist.md",
+      "bytes": 507,
+      "sha256": "920a0116b00f891d917058098f738653cc41e73f4e71cd430b4dae0936d88d29"
+    },
+    {
+      "path": "templates/release-record.md",
+      "bytes": 776,
+      "sha256": "394bb6cd81dcda91dabab532a1aa870c490094d7ae5e9dab26b815c20f63befd"
+    },
+    {
+      "path": "templates/requirements-register.csv",
+      "bytes": 90,
+      "sha256": "c92f1adb854fa80d318516898aec1921c88b63b9a3cf1d926014fdb34292d33a"
+    },
+    {
+      "path": "templates/sft-record.jsonl",
+      "bytes": 228,
+      "sha256": "30266829d29511486e0539659609d352c32f60b48bde87aa149af297ecf553b3"
+    },
+    {
+      "path": "templates/skill-package/SKILL.md",
+      "bytes": 574,
+      "sha256": "2cbec3bdef80adb49db41eca73715bfcfc686656f219648d70f1a981b70c54aa"
+    },
+    {
+      "path": "templates/source-record.json",
+      "bytes": 249,
+      "sha256": "c9e054f17a016609e21fc9533d47420730ab25f57b95fbfe4c39e26305e87eb2"
+    },
+    {
+      "path": "tests/core/test_evidence.py",
+      "bytes": 626,
+      "sha256": "17417c8f344da14a2338ce9ddab1d1b636e0821415aab50f6d743d0d639c4613"
+    },
+    {
+      "path": "tests/integration/README.md",
+      "bytes": 300,
+      "sha256": "706f0dc9eb2133828829eeec00e8169625b3fc8896b4ae46e59c3da92729101c"
+    },
+    {
+      "path": "tests/integration/end-to-end-release.md",
+      "bytes": 679,
+      "sha256": "fa3b98bef5a8dddebebe7d17877f9212d258eb576bc222b6723f6da2c3b97012"
+    },
+    {
+      "path": "tests/integration/ip-enclosure-release.md",
+      "bytes": 491,
+      "sha256": "89a184ef15d6de5044d2428340a1bb3cc21dc7d7b93574f1b7d2f1610b452fbf"
+    },
+    {
+      "path": "tests/integration/laser-dxf-marking.md",
+      "bytes": 623,
+      "sha256": "f1708f1e658c9cd6a6240e3466d96aeb98b710a4ef50fdc5092ca79a5b73b465"
+    },
+    {
+      "path": "tests/integration/macro-generator.md",
+      "bytes": 528,
+      "sha256": "4f16575caf809c5ef2dee3540bd507893096d4828df6ded8b86bd3a512733904"
+    },
+    {
+      "path": "tests/integration/quotation-integration.md",
+      "bytes": 350,
+      "sha256": "53cdc8f22b06ddd6daa5081355794951ca8f78a237700d92911afe09c752345c"
+    },
+    {
+      "path": "tests/integration/sheet-metal-bend-analysis.md",
+      "bytes": 666,
+      "sha256": "71f6c26105f87a8d42636f0f6068a88eb72e17c00c614b291a47bde5ce76bbe4"
+    },
+    {
+      "path": "tests/integration/solidworks-turkish-ui.md",
+      "bytes": 462,
+      "sha256": "7127b668d23a4b0a715cdaaddc7ff9add730212d1df700425f968e8dc62acd61"
+    },
+    {
+      "path": "tests/integration/technical-drawing-review.md",
+      "bytes": 465,
+      "sha256": "a8e6f8047f850b8849ee6bca10cecd9025e2ec2e08e1a4822ad2c4d471367c16"
+    },
+    {
+      "path": "tests/integration/v0.9-case-regression.md",
+      "bytes": 487,
+      "sha256": "b74b76dd18e727682302d7b24cfd4d46518bc296c1f9463b8ed53ceb72ab3997"
+    },
+    {
+      "path": "tests/integration/visual-generation.md",
+      "bytes": 340,
+      "sha256": "eecb9a4aecec6ee0dfad6c92c470cfe5aa757057bc0e5802cd68a7aaa11284df"
+    },
+    {
+      "path": "tests/rag/test_retrieval.py",
+      "bytes": 554,
+      "sha256": "4e73190d91f0e69421594ddfe82cf8076657d35e270e861d89720a804cabf4e1"
+    },
+    {
+      "path": "tests/release/v2.0-release-check.md",
+      "bytes": 507,
+      "sha256": "920a0116b00f891d917058098f738653cc41e73f4e71cd430b4dae0936d88d29"
+    },
+    {
+      "path": "tests/skills/README.md",
+      "bytes": 195,
+      "sha256": "b1147e1c7334441f02f3031f6b7b96ae105f5f7fe4063c2da129c2ebb81eacbc"
+    },
+    {
+      "path": "tests/skills/core-skill-test-cases.md",
+      "bytes": 662,
+      "sha256": "5106d9e8c53ee79bfd3a6099267322e83cb40fe9d46bb660dfb87b71019f510b"
+    },
+    {
+      "path": "tests/tools/test_calculators.py",
+      "bytes": 1107,
+      "sha256": "fb921290a3df821d75243094abc6ff9ae3c6724a41e65e9f4441b5ca71edf988"
+    },
+    {
+      "path": "tools/calculators/README.md",
+      "bytes": 1062,
+      "sha256": "263e9c66f3c704db032a316602e3d75c8395053382a4ea0d96d0d1cca95e0b96"
+    },
+    {
+      "path": "tools/calculators/__init__.py",
+      "bytes": 290,
+      "sha256": "a949a27a30916eff043d135d6e187e8836a44b3fa0240d06fece6eccdae80840"
+    },
+    {
+      "path": "tools/calculators/bend.py",
+      "bytes": 1352,
+      "sha256": "4f1df8527dfb6deb9e13692331fb1b5538412d8093271624e2bcbcaf4d8fe94e"
+    },
+    {
+      "path": "tools/calculators/cost.py",
+      "bytes": 1000,
+      "sha256": "b4ec304ecc94f30abc7310ef47f0cd99d88f816e165277ed70fdbb4190eaa9e3"
+    },
+    {
+      "path": "tools/calculators/engineering_calc.py",
+      "bytes": 3683,
+      "sha256": "6d5d4acce2f5b3d5125b14b001baa3248ee6d5cf9a0d15e64c53d6f47405309a"
+    },
+    {
+      "path": "tools/calculators/gasket.py",
+      "bytes": 806,
+      "sha256": "ca459527e2e2054df380da2b322788f51002c298880da3bac66907f58892ea20"
+    },
+    {
+      "path": "tools/calculators/mass.py",
+      "bytes": 734,
+      "sha256": "23b34a86049c99b89deaa456a230435cf6a9d0ed5c6f24964e986e768e3cb65b"
+    },
+    {
+      "path": "tools/calculators/stiffness.py",
+      "bytes": 960,
+      "sha256": "75a809d4a1782c3bf640810d086300b9799d6e05c8a82b07b20b12f008ce9f84"
+    },
+    {
+      "path": "tools/calculators/thermal.py",
+      "bytes": 470,
+      "sha256": "fa858752298274482ea938e14b74cba1ffc6f7f3f24218884ba657036ef33b96"
+    },
+    {
+      "path": "tools/calculators/tolerance.py",
+      "bytes": 777,
+      "sha256": "1e876301369e6e6043d688a901b73f784cd8b5f3a2f62042eb4ecde00d27600a"
+    },
+    {
+      "path": "tools/sheet_calc.py",
+      "bytes": 2884,
+      "sha256": "ecc04e4d91bcb8213c3b7ba20d09a2f455bf0876b0259fd7c27712d0646420b1"
+    },
+    {
+      "path": "tools/test_sheet_calc.py",
+      "bytes": 995,
+      "sha256": "0747e51b72147d1eb77a214d547792dd8d8984db9b88718be9719e7decb774a1"
+    },
+    {
+      "path": "tr/prompts/masters/active/mai-master-mechanical-ai-library-orchestrator.md",
+      "bytes": 3881,
+      "sha256": "0bdf90055f513d4c65354356e23f8265f0ed063eb67c5f313dee783aa3efd82a"
+    },
+    {
+      "path": "tr/prompts/masters/active/mai-master-mode-router.md",
+      "bytes": 574,
+      "sha256": "7b96737632f47f083c4ba98b299c2cb8b9eb83c00b5365141925275c06d75d4b"
+    },
+    {
+      "path": "tr/prompts/modules/capability/context-audit.md",
+      "bytes": 1701,
+      "sha256": "10d85d0e1931833c0c9c5a422a6a127da69a2e87b6810daf431880c4f94cb520"
+    },
+    {
+      "path": "tr/prompts/modules/capability/image-measurement.md",
+      "bytes": 1503,
+      "sha256": "ce1312708bb44a909f599f24b576f9126ec5d7b93a65ae3c4dab6d8561d07795"
+    },
+    {
+      "path": "tr/prompts/modules/capability/market-research-method.md",
+      "bytes": 935,
+      "sha256": "045e3be7931247cdc0c77babfe86b43d950122a464f1bb2e4cfee0064ac1fe10"
+    },
+    {
+      "path": "tr/prompts/modules/capability/source-validation.md",
+      "bytes": 1615,
+      "sha256": "9de1a11280bd9396fecc38e35fd4610ec99cf748eea6fbb70cc478d5ebc55507"
+    },
+    {
+      "path": "tr/prompts/modules/capability/technical-verification.md",
+      "bytes": 1468,
+      "sha256": "5efa5b0a7ea24d75cbd47bef23d3a8e4cf8c666203f7197a09513abce8069fad"
+    },
+    {
+      "path": "tr/prompts/modules/capability/uncertainty-management.md",
+      "bytes": 1270,
+      "sha256": "a93d945dd3949c88b85c7f8953dd50708d07d8bd1fb186f89413b5aa3f814d3b"
+    },
+    {
+      "path": "tr/prompts/modules/constraints/no-fabrication.md",
+      "bytes": 1700,
+      "sha256": "710c479de783db88c522f647fcc2d66d9a3588e09abc20c80f70336cbfe22fcb"
+    },
+    {
+      "path": "tr/prompts/modules/domain/cost-model.md",
+      "bytes": 1462,
+      "sha256": "dd7b6782c08169a5035db492f267066f097cc6b2e0da8d60dc62865cb920f71f"
+    },
+    {
+      "path": "tr/prompts/modules/domain/enclosure-ip-design.md",
+      "bytes": 1446,
+      "sha256": "1bb7ec4c4f5b6944f547778626e5283303d726689832cff4c8aea815a209496e"
+    },
+    {
+      "path": "tr/prompts/modules/domain/engineering-terminology.md",
+      "bytes": 1187,
+      "sha256": "077c8282f79f589b78e12e18d710c0cf249650844d70722db108ae20d9c810cc"
+    },
+    {
+      "path": "tr/prompts/modules/domain/manufacturing-chain.md",
+      "bytes": 1589,
+      "sha256": "4359b484d732999f4e8c02a205cf44fc970b92a0d467d9aeeb5b634f58136c9a"
+    },
+    {
+      "path": "tr/prompts/modules/domain/sheet-metal-domain.md",
+      "bytes": 1514,
+      "sha256": "3d51d4268420a9fd2360c93cb5be54e2c93adab7de8fb55c225e0521ed1678db"
+    },
+    {
+      "path": "tr/prompts/modules/domain/solidworks-turkish-ui.md",
+      "bytes": 1528,
+      "sha256": "45d801f300d6b236b00da1849dfc4303a77fa0cdf4cb14d6c36abd2cb9e1ba5b"
+    },
+    {
+      "path": "tr/prompts/modules/output/action-summary.md",
+      "bytes": 900,
+      "sha256": "614da8e2dd09ad94c254bc68554fd77eda3f56c8da2db3c9124de9074b4c1cbd"
+    },
+    {
+      "path": "tr/prompts/modules/output/technical-output.md",
+      "bytes": 1103,
+      "sha256": "0b0b8b6e1fde8b8ae7ad08bb64e889e48346a8f8b34d128c0f1192d8b31b3c4d"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-ai-training-curator.md",
+      "bytes": 2524,
+      "sha256": "b6f7b1b246b452eb2d42917404af86fea27e27caee937aa0486e8358aac86e34"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-cad-engineering-practice.md",
+      "bytes": 2564,
+      "sha256": "8778fadfefac42f8958688b74665c7c11e476e7a95d01c80fa51a97a9153ac3b"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-cost-analysis.md",
+      "bytes": 2022,
+      "sha256": "e851330a39b409e01afce858dd373b76477e1255665e585349964ad5ee7851e6"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-enclosure-gasket-review.md",
+      "bytes": 957,
+      "sha256": "70d3ed02e0e476dbcfffa52623c030029c4035c1e336d7e4f820210881c6638f"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-enclosure-ip-design-review.md",
+      "bytes": 2311,
+      "sha256": "fe0577995a7130cc7ca5404986666d416825d48594dfe539eea43b38eb7b6bd6"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-engineering-task-intake.md",
+      "bytes": 2174,
+      "sha256": "72ffd51e538a041f3462be5c98970d8193b2f1f7cab7824cb763ff6c1a5781be"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-flat-pattern-workflow.md",
+      "bytes": 2414,
+      "sha256": "830bd23868a8bdc710df2a3aa1c777061e03248b7dd855bb59b9d866e266a96b"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-gdt-selection.md",
+      "bytes": 2441,
+      "sha256": "a8a20b5e1055f5f728f81d5c264fa9486f50166493964c770b9a8e248cc8d7c7"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-image-dimension-estimation.md",
+      "bytes": 2189,
+      "sha256": "c6b9a4dfec37e2f12ce2ac8ad38d1b145c711ee02cb0f786546a205525312a39"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-laser-dxf-workflow.md",
+      "bytes": 2329,
+      "sha256": "6885a26922be3ad4a3e3e79efa5006e0d18b2f2be5186af662e69f29fe073c6e"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-market-intelligence.md",
+      "bytes": 1802,
+      "sha256": "565361ed64e150795659956c116c9c7e72c71a2ed6e5daa5101ed239b806d124"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-material-property-research.md",
+      "bytes": 1048,
+      "sha256": "d51487c2eba0141c1caec07214a6664fce706fb72870cec3883b9818f2f7a869"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-quotation-generator.md",
+      "bytes": 991,
+      "sha256": "999444510b33055751e1265cd3c35c17c11bb6fa321d21eefa8718841faf245e"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-sheet-metal-bend-analysis.md",
+      "bytes": 2054,
+      "sha256": "14a3d5908716f05e30bbb7ad49ea3be55d4c39763b7cb5428a82c5e301fda576"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-sheet-metal-manufacturability-check.md",
+      "bytes": 2358,
+      "sha256": "3afacba615a121f09891ef554965aa9ea74582fa65161b8abb77bdf76f18c268"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-sheet-metal-release-workflow.md",
+      "bytes": 1042,
+      "sha256": "cf500d3e9353a555fd0a3302ba85d16bd9d4acdf2a8efa4abb4c3fe1f6862d0c"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-sheet-metal-terminology.md",
+      "bytes": 2497,
+      "sha256": "98b6c984b4eb729d74b9c4b9cfc348a0a07dbcd0d6242293f30c58fc81a66c77"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-sheet-metal-weld-fastener-review.md",
+      "bytes": 1010,
+      "sha256": "cf8df099fc9e401ba6018ae2f5f9cacbcf43fe6c8cb136f943d7bef0f5d2f9a6"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-solidworks-dxf-release-check.md",
+      "bytes": 990,
+      "sha256": "fd69930f30504c064e12900b2b80a780eb6325dfaca622de1c7acad3fd6a24a7"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-solidworks-macro-generator.md",
+      "bytes": 2798,
+      "sha256": "ebc462c6e02c843e6c0d1ba3c486f4b8f0d6b3a25ae8edafe7563940977f6181"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-solidworks-sheet-metal-workflow.md",
+      "bytes": 2653,
+      "sha256": "ed33b5ab41e3fd5c9bbec5c36f60d451454d5fd3d33445ad7722a8880841ad5c"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-solidworks-turkish-ui.md",
+      "bytes": 2105,
+      "sha256": "73a46154d8eb7464b85e16146594df4147b3ece48110575ff503ee2a78576e2a"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-technical-document-generator.md",
+      "bytes": 2022,
+      "sha256": "46bdc21ded050f1b41df8e5a716ec0717ffe7447b064ed5077d9f26a0c68b674"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-technical-drawing-review.md",
+      "bytes": 2462,
+      "sha256": "4f4f774e1b7a8ba3875d3b5769638940729cd28cb70c77182c151c5bd023c346"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-title-block-design.md",
+      "bytes": 990,
+      "sha256": "827b20fe31e768c00388b1cd1ce126fb4522ddae1a5ed59c2043cf8af2d68041"
+    },
+    {
+      "path": "tr/prompts/skill-blueprints/mai-blueprint-weight-analysis.md",
+      "bytes": 2205,
+      "sha256": "1ef8c82ee118524157528bcd8f1917336982915a90eed28bc17c454e55c8a514"
+    },
+    {
+      "path": "training/DATA-GOVERNANCE.md",
+      "bytes": 1592,
+      "sha256": "86286bd3732c8512a5d187d6e0bf980c851d6593320933c7919917701ce42b46"
+    },
+    {
+      "path": "training/EVALUATION.md",
+      "bytes": 1198,
+      "sha256": "f41dbafbad3af36f5d82db62aceaabf983d2389fdf304e0701c87cfb81cfe8dd"
+    },
+    {
+      "path": "training/README.md",
+      "bytes": 2997,
+      "sha256": "82b90f71977029876785ad376c6b88a67851c284eba295ed53ef30d92e1d393f"
+    },
+    {
+      "path": "training/datasets/preference/preference-seed.jsonl",
+      "bytes": 7275,
+      "sha256": "3d8ba130ec08045fe5abfb61a01081f403403f06a78de818a7e4c6d8c5f8aa52"
+    },
+    {
+      "path": "training/datasets/sft/sft-seed.jsonl",
+      "bytes": 51798,
+      "sha256": "f6c4f992f5f984ae87e912b390570528b1c1129e06f90b5f11c16fef1cee64f7"
+    },
+    {
+      "path": "training/eval/cases.jsonl",
+      "bytes": 21647,
+      "sha256": "9a79a3c549ea0d9f0a462d2bcf1a0e839b0f2e46acc7fdfbefa574383878bc4a"
+    },
+    {
+      "path": "training/eval/gold-sample-responses.jsonl",
+      "bytes": 26622,
+      "sha256": "a993803e91ee3fa86a2ba4184cfb496d5a0ecc150ce60b3bca617a445f12d82e"
+    },
+    {
+      "path": "training/rag/README.md",
+      "bytes": 798,
+      "sha256": "e910046bc6a4f6a88b4263c8dec7c39deb029742bdad077a014f925c77331726"
+    },
+    {
+      "path": "training/rag/chunks.jsonl",
+      "bytes": 224147,
+      "sha256": "4c5e2fe6e0fb6c57017188683b391d46e454b5c953834dbe3b247c119447b610"
+    },
+    {
+      "path": "training/scripts/build_rag_chunks.py",
+      "bytes": 3278,
+      "sha256": "72c730699fa7ed11097401c32e9c74161b73f6c583fccfcef30d51fb0d4cd57b"
+    },
+    {
+      "path": "training/scripts/export_sft.py",
+      "bytes": 2292,
+      "sha256": "05a51d368b940a5e9f072555b8cc33724d8df9274d10ce8b1ed5e3638e551e09"
+    },
+    {
+      "path": "training/scripts/run_eval.py",
+      "bytes": 3398,
+      "sha256": "e2c1cc9abbb88ba9e7c194a0b44b9fdee5ae4336cf31c560ac9c4ece8b56c13c"
+    },
+    {
+      "path": "training/scripts/validate_dataset.py",
+      "bytes": 4475,
+      "sha256": "a21caa798c36dc89a4899cf6f40b9aded95c233ef55218624bf28c2e5d1f7a90"
+    },
+    {
+      "path": "training/system-prompts/chatgpt-custom-gpt-instructions.md",
+      "bytes": 5391,
+      "sha256": "c6ddcde54cbaf3749b170265e5354c9891f8f4460e4f885e4b9e9273ad71a3b5"
+    },
+    {
+      "path": "training/system-prompts/claude-project-instructions.md",
+      "bytes": 5298,
+      "sha256": "b96d1d1911dd437902e47e8a4fba4999a326f494b611fa35f8fc96276dc0d906"
+    },
+    {
+      "path": "training/system-prompts/core-system-prompt.md",
+      "bytes": 5044,
+      "sha256": "675d311c2bebd7c24b3594acfc54749190dd0dd5cdd38b493f645dda2450bbdf"
+    },
+    {
+      "path": "workflows/design-assistance/drawing-to-production.md",
+      "bytes": 559,
+      "sha256": "56f7aff88a96b8943dd4602144956bd68c14cda7ebe8e387ca40c977fc6359bc"
+    },
+    {
+      "path": "workflows/design-assistance/new-sheet-metal-enclosure.md",
+      "bytes": 847,
+      "sha256": "04a0a9f6009d84b32d2fd789c79e57e56dac970ce83fec036b5623caaba5f9c4"
+    },
+    {
+      "path": "workflows/design-assistance/stuck-on-a-design.md",
+      "bytes": 916,
+      "sha256": "eb3150c1e14e4d819f34eaaea0e06b7f96a94bf7d6f7546a21d9ed3a62979351"
+    },
+    {
+      "path": "workflows/end-to-end/case-driven-release.md",
+      "bytes": 784,
+      "sha256": "3b95b421b76178ae93d3357d9057d0e49dbe71e7246fbb9172affa6ce418adf3"
+    },
+    {
+      "path": "workflows/end-to-end/cost-to-quotation.md",
+      "bytes": 302,
+      "sha256": "e39d5f3bf2162ca22168108d5cd1648de5785a8636ffee8d4196547cc60acd04"
+    },
+    {
+      "path": "workflows/end-to-end/ip-enclosure-to-production.md",
+      "bytes": 420,
+      "sha256": "bf4a4e44f8ed0df609466b8908efbe731f0336383d9abf100845362527c3280b"
+    },
+    {
+      "path": "workflows/end-to-end/manufacturing-release-gate.md",
+      "bytes": 588,
+      "sha256": "705f69323a1a8bab36cc6b7a53566dbdad382ff51f4a1b008200610c172feb2f"
+    },
+    {
+      "path": "workflows/end-to-end/sheet-metal-manufacturing-release.md",
+      "bytes": 1180,
+      "sha256": "5fbca802f4f0610613bfa7dae5d40a414ce2321554ca21dba4fb3541f691e9df"
+    },
+    {
+      "path": "workflows/visual/engineering-image-generation.md",
+      "bytes": 394,
+      "sha256": "369646f21471c194b166d61a9b5970a2069e23cba39bec95531b215a4ee887ef"
+    },
+    {
+      "path": "workflows/visual/image-editing.md",
+      "bytes": 233,
+      "sha256": "ee4d5569717c168f83d131400cc26299d14edfceae36f359f92a2f903a4bda51"
+    }
+  ]
+}

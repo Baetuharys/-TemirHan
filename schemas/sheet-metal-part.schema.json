@@ -1,0 +1,104 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.local/mechanical-ai/sheet-metal-part.schema.json",
+  "title": "Mechanical AI Sheet Metal Part",
+  "type": "object",
+  "required": [
+    "part_id",
+    "material",
+    "thickness_mm",
+    "release_status"
+  ],
+  "$defs": {
+    "evidenceValue": {
+      "type": "object",
+      "required": [
+        "tag"
+      ],
+      "properties": {
+        "value": {},
+        "tag": {
+          "enum": [
+            "SUPPLIED",
+            "CALCULATED",
+            "SOURCE-BACKED",
+            "PRACTICE",
+            "ASSUMED",
+            "ESTIMATED",
+            "UNKNOWN"
+          ]
+        },
+        "unit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_id": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "confidence": {
+          "type": [
+            "number",
+            "null"
+          ],
+          "minimum": 0,
+          "maximum": 1
+        },
+        "note": {
+          "type": [
+            "string",
+            "null"
+          ]
+        }
+      }
+    }
+  },
+  "properties": {
+    "part_id": {
+      "type": "string"
+    },
+    "revision": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "material": {
+      "type": "object"
+    },
+    "thickness_mm": {
+      "$ref": "#/$defs/evidenceValue"
+    },
+    "bends": {
+      "type": "array"
+    },
+    "holes": {
+      "type": "array"
+    },
+    "notes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "source_files": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "release_status": {
+      "enum": [
+        "DRAFT",
+        "REVIEW",
+        "RELEASE-CANDIDATE",
+        "RELEASED",
+        "HOLD"
+      ]
+    }
+  }
+}

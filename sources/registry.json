@@ -1,0 +1,189 @@
+{
+  "schema_version": "1.0",
+  "reviewed_on": "2026-10-02",
+  "policy": "Registry stores official landing-page metadata and provenance only. It does not reproduce copyrighted standards. Verify project-specific contractual editions before release.",
+  "sources": [
+    {
+      "id": "IEC-60529-2.2",
+      "type": "standard",
+      "organization": "IEC",
+      "title": "IEC 60529:1989+AMD1:1999+AMD2:2013 CSV — Degrees of protection provided by enclosures (IP Code)",
+      "edition": "2.2",
+      "status": "published",
+      "publication_date": "2013-08-29",
+      "stability_date": "2027",
+      "url": "https://webstore.iec.ch/en/publication/2452",
+      "use_for": [
+        "IP code",
+        "enclosure ingress protection"
+      ],
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "IEC-62262-1.1",
+      "type": "standard",
+      "organization": "IEC",
+      "title": "IEC 62262:2002+AMD1:2021 CSV — IK code",
+      "edition": "1.1",
+      "status": "published",
+      "publication_date": "2021-09-03",
+      "stability_date": "2026",
+      "url": "https://webstore.iec.ch/en/publication/71109",
+      "use_for": [
+        "IK code",
+        "external mechanical impact protection"
+      ],
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ISO-1101-2017",
+      "type": "standard",
+      "organization": "ISO",
+      "title": "ISO 1101:2017 — Geometrical tolerancing",
+      "edition": "4",
+      "status": "published-current",
+      "publication_date": "2017-02",
+      "last_confirmed": "2022",
+      "url": "https://www.iso.org/standard/66777.html",
+      "use_for": [
+        "GD&T",
+        "form orientation location run-out"
+      ],
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ISO-5459-2024",
+      "type": "standard",
+      "organization": "ISO",
+      "title": "ISO 5459:2024 — Datums and datum systems",
+      "edition": "3",
+      "status": "published-current",
+      "publication_date": "2024-10",
+      "url": "https://www.iso.org/standard/87855.html",
+      "use_for": [
+        "datums",
+        "datum systems",
+        "GPS"
+      ],
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ISO-2768-1-1989",
+      "type": "standard",
+      "organization": "ISO",
+      "title": "ISO 2768-1:1989 — General tolerances, linear and angular dimensions",
+      "edition": "1",
+      "status": "published-current-pending-replacement",
+      "publication_date": "1989-11",
+      "last_confirmed": "2022",
+      "url": "https://www.iso.org/standard/7748.html",
+      "use_for": [
+        "general dimensional tolerances"
+      ],
+      "note": "ISO lists a replacement ISO 2768 edition as under publication in 2026; re-check before contractual release.",
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ISO-2768-ED2-DRAFT-2026",
+      "type": "standard-draft",
+      "organization": "ISO",
+      "title": "ISO 2768 Edition 2 — dimensional tolerancing",
+      "edition": "2",
+      "status": "under-publication",
+      "publication_date": null,
+      "url": "https://www.iso.org/standard/85741.html",
+      "use_for": [
+        "standards watch"
+      ],
+      "note": "Not a published replacement yet as reviewed on 2026-10-02; do not cite as governing standard until published/contractually adopted.",
+      "access": "metadata/public preview"
+    },
+    {
+      "id": "ISO-2553-2019",
+      "type": "standard",
+      "organization": "ISO",
+      "title": "ISO 2553:2019 — Symbolic representation of welded joints",
+      "edition": "5",
+      "status": "published-to-be-revised",
+      "publication_date": "2019-03",
+      "corrected": "2021-09",
+      "url": "https://www.iso.org/standard/72740.html",
+      "use_for": [
+        "weld symbols",
+        "technical drawings"
+      ],
+      "note": "A draft replacement was under development in 2026; verify current status before release.",
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ISO-21920-1-2021",
+      "type": "standard",
+      "organization": "ISO",
+      "title": "ISO 21920-1:2021 — Indication of surface texture",
+      "edition": "1",
+      "status": "published-to-be-revised",
+      "publication_date": "2021-12",
+      "url": "https://www.iso.org/standard/72196.html",
+      "use_for": [
+        "surface texture indication",
+        "technical product documentation"
+      ],
+      "note": "ISO/CD 21920-1 Edition 2 is under development; re-check before release.",
+      "access": "metadata/public preview; full standard licensed separately"
+    },
+    {
+      "id": "ASME-Y14.5-2018-R2024",
+      "type": "standard",
+      "organization": "ASME",
+      "title": "ASME Y14.5-2018 (R2024) — Dimensioning and Tolerancing",
+      "edition": "2018",
+      "status": "reaffirmed",
+      "reaffirmation_year": "2024",
+      "url": "https://www.asme.org/codes-standards/find-codes-standards/dimensioning-and-tolerancing",
+      "use_for": [
+        "ASME GD&T",
+        "dimensioning and tolerancing"
+      ],
+      "access": "metadata/product page; full standard licensed separately"
+    },
+    {
+      "id": "SW-HELP-2026-VBA",
+      "type": "software-doc",
+      "organization": "Dassault Systèmes / SOLIDWORKS",
+      "title": "SOLIDWORKS API Help 2026 — VBA Macro Files and Macro Features",
+      "version": "2026",
+      "status": "published",
+      "url": "https://help.solidworks.com/2026/english/api/sldworksapiprogguide/Macro_Features/VBA_Macro_Files.htm",
+      "use_for": [
+        "SolidWorks VBA macros",
+        "API verification"
+      ]
+    },
+    {
+      "id": "SW-HELP-2026-FLATPATTERN-ENUM",
+      "type": "software-doc",
+      "organization": "Dassault Systèmes / SOLIDWORKS",
+      "title": "SOLIDWORKS API Help 2026 — swExportFlatPatternViewOptions_e",
+      "version": "2026",
+      "status": "published",
+      "url": "https://help.solidworks.com/2026/English/api/swconst/SolidWorks.Interop.swconst~SolidWorks.Interop.swconst.swExportFlatPatternViewOptions_e.html",
+      "use_for": [
+        "flat-pattern export API",
+        "SolidWorks constants"
+      ]
+    },
+    {
+      "id": "SW-HELP-DXF",
+      "type": "software-doc",
+      "organization": "Dassault Systèmes / SOLIDWORKS",
+      "title": "SOLIDWORKS Design Help — Exporting Sheet Metal Parts to DXF/DWG",
+      "version": "help topic verified in 2022/2024/2026 family",
+      "status": "published",
+      "url": "https://help.solidworks.com/2022/english/SolidWorks/sldworks/c_Exporting_to_DXF_or_DWG_Files.htm",
+      "use_for": [
+        "sheet-metal flat-pattern DXF",
+        "bend-line export workflow"
+      ]
+    }
+  ]
+}
